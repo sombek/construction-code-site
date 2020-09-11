@@ -1,0 +1,78 @@
+<template>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+        <div class="container">
+            <!-- LOGO -->
+            <router-link class="navbar-brand brand-logo mr-4" to="/">
+                    <img src="assets/images/logo.png" class="img-fluid logo-light" alt="">
+                    <img src="assets/images/dark-logo.png" class="img-fluid logo-dark" alt="">
+            </router-link>
+            <div class="navbar-collapse collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav navbar-center" id="mySidenav">
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/">الرئيسية</router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/about">من نحن</router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/services">خدماتنا</router-link>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="portfolio-two-column.html" class="nav-link dropdown-toggle" data-toggle="dropdown">معرض الأعمال</a>
+                        <ul class="nav-bar submenu dropdown-menu list-unstyled p-0">
+                            <li class="nav-item">
+                                <router-link class="nav-link" to="/portfolio2">Two Column</router-link>
+                            </li>
+                            <li class="nav-item">
+                                <router-link class="nav-link" to="/portfolio3">Three Column</router-link>
+                            </li>
+                            <li class="nav-item">
+                                <router-link class="nav-link" to="/portfolio4">Four Column</router-link>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/blog">Blog</router-link>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="portfolio-two-column.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                        <ul class="nav-bar submenu dropdown-menu list-unstyled p-0">
+                            <li class="nav-item">
+                                <router-link class="nav-link" to="/blogdetail">Blog Details</router-link>
+                            </li>
+                            <li class="nav-item">
+                                <router-link class="nav-link" to="/login">Login</router-link>                               
+                            </li>
+                            <li class="nav-item">
+                                <router-link class="nav-link" to="/signup">Register</router-link>
+                            </li>
+                            <li class="nav-item">
+                                <router-link class="nav-link" to="/error">404</router-link>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/contact">Contact</router-link>
+                    </li>
+                </ul>
+                <div class="menu-close-btn"><i class="mdi mdi-close-circle-outline"></i></div>
+            </div>
+            <div class="header_btn">
+                <button class="navbar-toggler ml-2 p-0" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="mdi mdi-menu"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+</template>
+
+<script>
+   
+    export default {
+        name: "template_header",
+        methods: {
+
+        }
+    }</script>

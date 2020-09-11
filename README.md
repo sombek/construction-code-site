@@ -1,4 +1,4 @@
-# construction-code
+# atrikt
 
 ## Project setup
 ```
