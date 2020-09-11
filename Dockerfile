@@ -1,7 +1,5 @@
 FROM node:lts-alpine as builder
 
-ARG env_file=development
-
 # make the 'app' folder the current working directory
 WORKDIR /app
 
@@ -15,7 +13,7 @@ RUN npm install
 COPY . .
 
 # build app for production with minification
-RUN npm run build-${env_file}
+RUN npm run build
 
 ### STAGE 2: Setup ###
 
