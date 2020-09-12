@@ -1,7 +1,7 @@
 import 'bootstrap/dist/js/bootstrap.bundle.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Vue from 'vue'
-import app from './app.vue'
+import app from './App.vue'
 import router from './router'
 Vue.config.productionTip = false
 
