@@ -5,9 +5,6 @@ import template_footer from "./components/footer";
 
 export default {
     name: 'app',
-    created() {
-        document.title = "شركة كود التشييد | للمقاولات العامة";
-    },
     components: {
         template_header,
         template_footer
