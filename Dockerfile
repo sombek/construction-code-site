@@ -1,7 +1,7 @@
 FROM node:lts-alpine as builder
 
-# make the 'app' folder the current working directory
-WORKDIR /app
+# make the 'application' folder the current working directory
+WORKDIR /application
 
 # copy both 'package.json' and 'package-lock.json' (if available)
 COPY package*.json ./
@@ -9,7 +9,7 @@ COPY package*.json ./
 # install project dependencies leaving out dev dependencies
 RUN npm install
 
-# copy project files and folders to the current working directory (i.e. 'app' folder)
+# copy project files and folders to the current working directory (i.e. 'application' folder)
 COPY . .
 
 # build app for production with minification
@@ -26,6 +26,6 @@ COPY nginx/default.conf /etc/nginx/conf.d/
 RUN rm -rf /usr/share/nginx/html/*
 
 ## From ‘builder’ stage copy over the artifacts in dist folder to default nginx public folder
-COPY --from=builder app/dist /usr/share/nginx/html
+COPY --from=builder application/dist /usr/share/nginx/html
 
 CMD ["nginx", "-g", "daemon off;"]
