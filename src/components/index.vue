@@ -5,7 +5,7 @@
             <div class="swiper-container main-slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="slide-inner bg-image" data-image-src="assets/images/slider-img/slider1.jpg">
+                        <div class="slide-inner site-bg-image-1">
                             <div class="slide-content text-white">
                                 <h2 class="mb-0 text-center">كود التشييد</h2>
                                 <p class="text-white text-center">
@@ -15,7 +15,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="slide-inner bg-image" data-image-src="assets/images/slider-img/slider2.jpg">
+                        <div class="slide-inner site-bg-image-2">
                             <div class="slide-content text-white">
                                 <h2 class="mb-0 text-center">حلول مبتكره في البناء</h2>
                                 <p class="text-white text-center">
@@ -42,7 +42,8 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="about-text pl-4">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
                         </div>
                     </div>
                 </div>
@@ -59,10 +60,17 @@
                                 <span>Improve your Business</span>
                             </h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                             </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas. Competently brand performance based content and.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas. Competently brand performance based content and.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify
+                                sustainable applications whereas adaptive schemas. Competently brand performance based
+                                content and.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify
+                                sustainable applications whereas adaptive schemas. Competently brand performance based
+                                content and.</p>
                         </div>
                     </div>
                 </div>
@@ -79,57 +87,63 @@
                 <div class="service-boxes-area">
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.2s" data-wow-duration="1s">
+                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.2s"
+                                 data-wow-duration="1s">
                                 <div class="icon">
                                     <i class="mdi mdi-desktop-mac-dashboard"></i>
                                 </div>
                                 <h3>Clean Design</h3>
-                                <p>Lorem ipsum dolor sit amet,  adipiscing consectetur gravida elit</p>
+                                <p>Lorem ipsum dolor sit amet, adipiscing consectetur gravida elit</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.4s" data-wow-duration="1s">
+                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.4s"
+                                 data-wow-duration="1s">
                                 <div class="icon">
                                     <i class="mdi mdi-responsive"></i>
                                 </div>
                                 <h3>Responsive Design</h3>
-                                <p>Lorem ipsum dolor sit amet,  adipiscing consectetur gravida elit</p>
+                                <p>Lorem ipsum dolor sit amet, adipiscing consectetur gravida elit</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.6s" data-wow-duration="1s">
+                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.6s"
+                                 data-wow-duration="1s">
                                 <div class="icon">
                                     <i class="mdi mdi-rocket"></i>
                                 </div>
                                 <h3>Fast Boot</h3>
-                                <p>Lorem ipsum dolor sit amet,  adipiscing consectetur gravida elit</p>
+                                <p>Lorem ipsum dolor sit amet, adipiscing consectetur gravida elit</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.8s" data-wow-duration="1s">
+                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.8s"
+                                 data-wow-duration="1s">
                                 <div class="icon">
                                     <i class="mdi mdi-chat-processing-outline"></i>
                                 </div>
                                 <h3>Chatting Service</h3>
-                                <p>Lorem ipsum dolor sit amet,  adipiscing consectetur gravida elit</p>
+                                <p>Lorem ipsum dolor sit amet, adipiscing consectetur gravida elit</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
+                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="1s"
+                                 data-wow-duration="1s">
                                 <div class="icon">
                                     <i class="mdi mdi-chart-bar"></i>
                                 </div>
                                 <h3>Analysis</h3>
-                                <p>Lorem ipsum dolor sit amet,  adipiscing consectetur gravida elit</p>
+                                <p>Lorem ipsum dolor sit amet, adipiscing consectetur gravida elit</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="1.2s" data-wow-duration="1s">
+                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="1.2s"
+                                 data-wow-duration="1s">
                                 <div class="icon">
                                     <i class="mdi mdi-headphones-settings"></i>
                                 </div>
                                 <h3>Quick Support</h3>
-                                <p>Lorem ipsum dolor sit amet,  adipiscing consectetur gravida elit</p>
+                                <p>Lorem ipsum dolor sit amet, adipiscing consectetur gravida elit</p>
                             </div>
                         </div>
                     </div>
@@ -334,9 +348,11 @@
                                                 <h6 class="client-title font-20">Rex Watson</h6>
                                                 <span class="client-designation">Everline, Product Manager</span>
                                                 <figure class="client-thumb">
-                                                    <img src="assets/images/testi/client.jpg" class="img-fluid rounded-circle" alt="Client">
+                                                    <img src="assets/images/testi/client.jpg"
+                                                         class="img-fluid rounded-circle" alt="Client">
                                                 </figure>
-                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of developers are willing to go mile for customer service! Thanks!"</p>
+                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of
+                                                    developers are willing to go mile for customer service! Thanks!"</p>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
@@ -344,9 +360,11 @@
                                                 <h6 class="client-title font-20">Rex Watson</h6>
                                                 <span class="client-designation">Everline, Product Manager</span>
                                                 <figure class="client-thumb">
-                                                    <img src="assets/images/testi/client.jpg" class="img-fluid rounded-circle" alt="Client">
+                                                    <img src="assets/images/testi/client.jpg"
+                                                         class="img-fluid rounded-circle" alt="Client">
                                                 </figure>
-                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of developers are willing to go mile for customer service! Thanks!"</p>
+                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of
+                                                    developers are willing to go mile for customer service! Thanks!"</p>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
@@ -354,9 +372,11 @@
                                                 <h6 class="client-title font-20">Rex Watson</h6>
                                                 <span class="client-designation">Everline, Product Manager</span>
                                                 <figure class="client-thumb">
-                                                    <img src="assets/images/testi/client.jpg" class="img-fluid rounded-circle" alt="Client">
+                                                    <img src="assets/images/testi/client.jpg"
+                                                         class="img-fluid rounded-circle" alt="Client">
                                                 </figure>
-                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of developers are willing to go mile for customer service! Thanks!"</p>
+                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of
+                                                    developers are willing to go mile for customer service! Thanks!"</p>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
@@ -364,9 +384,11 @@
                                                 <h6 class="client-title font-20">Rex Watson</h6>
                                                 <span class="client-designation">Everline, Product Manager</span>
                                                 <figure class="client-thumb">
-                                                    <img src="assets/images/testi/client.jpg" class="img-fluid rounded-circle" alt="Client">
+                                                    <img src="assets/images/testi/client.jpg"
+                                                         class="img-fluid rounded-circle" alt="Client">
                                                 </figure>
-                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of developers are willing to go mile for customer service! Thanks!"</p>
+                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of
+                                                    developers are willing to go mile for customer service! Thanks!"</p>
                                             </div>
                                         </div>
                                     </div>
@@ -385,7 +407,7 @@
             <div class="container">
                 <div class="z-index9 wow fadeIn" data-wow-duration="1s">
                     <h2 class="text-white text-center">
-                        Start Managing your<br /> apps business, more faster
+                        Start Managing your<br/> apps business, more faster
                     </h2>
                     <div class="d-flex justify-content-center mt-4">
                         <button class="btn outline-theme-btn">CONTACT NOW</button>
@@ -405,38 +427,47 @@
                     <div class="col-md-6">
                         <div id="accordion" class="accordion accordion-faq wow fadeInUp" data-wow-duration="1s">
                             <div class="card bg-white">
-                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse" href="#collapseOne">
+                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse"
+                                   href="#collapseOne">
                                     <span class="card-title">
                                         <strong> How do I get access to a theme?</strong>
                                     </span>
                                 </a>
                                 <div id="collapseOne" class="card-body collapse" data-parent="#accordion">
                                     <p class="m-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                        gravida. simplify sustainable applications whereas adaptive schemas.
                                     </p>
                                 </div>
                             </div>
                             <div class="card bg-white">
-                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseTwo">
                                     <span class="card-title">
                                         <strong> How do I get access to a theme?</strong>
                                     </span>
                                 </a>
                                 <div id="collapseTwo" class="card-body collapse" data-parent="#accordion">
                                     <p class="m-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                        gravida. simplify sustainable applications whereas adaptive schemas.
                                     </p>
                                 </div>
                             </div>
                             <div class="card bg-white">
-                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseThree">
                                     <span class="card-title">
                                         <strong> How do I get access to a theme?</strong>
                                     </span>
                                 </a>
                                 <div id="collapseThree" class="card-body collapse pt-0" data-parent="#accordion">
                                     <p class="m-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                        gravida. simplify sustainable applications whereas adaptive schemas.
                                     </p>
                                 </div>
                             </div>
@@ -445,38 +476,47 @@
                     <div class="col-md-6">
                         <div id="accordion1" class="accordion accordion-faq wow fadeInUp" data-wow-duration="1s">
                             <div class="card bg-white">
-                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour">
+                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse"
+                                   data-parent="#accordion1" href="#collapseFour">
                                     <span class="card-title">
                                         <strong> How do I get access to a theme?</strong>
                                     </span>
                                 </a>
                                 <div id="collapseFour" class="card-body collapse" data-parent="#accordion1">
                                     <p class="m-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                        gravida. simplify sustainable applications whereas adaptive schemas.
                                     </p>
                                 </div>
                             </div>
                             <div class="card bg-white">
-                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive">
+                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse"
+                                   data-parent="#accordion1" href="#collapseFive">
                                     <span class="card-title">
                                         <strong> How do I get access to a theme?</strong>
                                     </span>
                                 </a>
                                 <div id="collapseFive" class="card-body collapse" data-parent="#accordion1">
                                     <p class="m-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                        gravida. simplify sustainable applications whereas adaptive schemas.
                                     </p>
                                 </div>
                             </div>
                             <div class="card bg-white">
-                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapseSix">
+                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse"
+                                   data-parent="#accordion1" href="#collapseSix">
                                     <span class="card-title">
                                         <strong> How do I get access to a theme?</strong>
                                     </span>
                                 </a>
                                 <div id="collapseSix" class="card-body collapse" data-parent="#accordion1">
                                     <p class="m-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                        gravida. simplify sustainable applications whereas adaptive schemas.
                                     </p>
                                 </div>
                             </div>
@@ -498,16 +538,23 @@
                             <div class="section-heading">
                                 <h3>Contact with us</h3>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged.
                                 </p>
                             </div>
                             <div class="footer-address mt-4">
                                 <h6 class="font-20 mb-3"><strong>Head Office</strong></h6>
                                 <ul class="list-unstyled">
-                                    <li class="mb-3"><i class="mdi-map-marker mdi mr-2"></i><span>300 King St, Melbourne VIC 5000, Australia</span></li>
-                                    <li class="mb-3"><i class="mdi-cellphone mdi mr-2"></i><span>+xx x xxxx xxxx</span></li>
+                                    <li class="mb-3"><i class="mdi-map-marker mdi mr-2"></i><span>300 King St, Melbourne VIC 5000, Australia</span>
+                                    </li>
+                                    <li class="mb-3"><i class="mdi-cellphone mdi mr-2"></i><span>+xx x xxxx xxxx</span>
+                                    </li>
                                     <li class="mb-3">
-                                        <i class="mdi-email mdi mr-2"></i><span><a href="mailto:hello@yourdomain.com" class="text-dark">hello@yourdomain.com</a></span>
+                                        <i class="mdi-email mdi mr-2"></i><span><a href="mailto:hello@yourdomain.com"
+                                                                                   class="text-dark">hello@yourdomain.com</a></span>
                                     </li>
                                 </ul>
                             </div>
@@ -519,31 +566,36 @@
                             <div class="row">
                                 <div class="col-sm-6 col-12">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" name="name" placeholder="Enter name" required="required">
+                                        <input type="text" class="form-control" name="name" placeholder="Enter name"
+                                               required="required">
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-12">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" name="email" placeholder="Enter email" required="required">
+                                        <input type="email" class="form-control" name="email" placeholder="Enter email"
+                                               required="required">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6 col-12">
                                     <div class="form-group">
-                                        <input type="text" name="phone" value="" class="form-control" placeholder="Your Phone">
+                                        <input type="text" name="phone" value="" class="form-control"
+                                               placeholder="Your Phone">
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-12">
                                     <div class="form-group">
-                                        <input type="text" name="company" value="" size="40" class="form-control" placeholder="Your Company">
+                                        <input type="text" name="company" value="" size="40" class="form-control"
+                                               placeholder="Your Company">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <textarea name="message" class="form-control" rows="7" cols="25" placeholder="Message"></textarea>
+                                        <textarea name="message" class="form-control" rows="7" cols="25"
+                                                  placeholder="Message"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -565,32 +617,60 @@
 </template>
 <script>
     //WOW JS
-    import { WOW } from 'wowjs';
+    import {WOW} from 'wowjs';
 
     // import Swiper styles
     import '../assets/css/swiper.min.css';
     // core version + navigation, pagination modules:
-    import Swiper, { Navigation, Pagination } from 'swiper';
+    import Swiper, {Navigation, Pagination} from 'swiper';
     // configure Swiper to use modules
     Swiper.use([Navigation, Pagination]);
     //ISOTOP JS
     import '../assets/js/jquery.isotope.min.js';
     import * as ScrollMagic from "scrollmagic"; // Or use scrollmagic-with-ssr to avoid server rendering problems
-    import { TweenMax, TimelineMax } from "gsap"; // Also works with TweenLite and TimelineLite
-    import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
+    import {TweenMax, TimelineMax} from "gsap"; // Also works with TweenLite and TimelineLite
+    import {ScrollMagicPluginGsap} from "scrollmagic-plugin-gsap";
+
     ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
 
     //MAGNIFIC POPUP JS
     import 'magnific-popup/dist/jquery.magnific-popup.min.js';
     import 'magnific-popup/dist/magnific-popup.css';
+
     export default {
         name: 'index', mounted() {
+            if (window.innerWidth < 600) {
+                this.slider1 = 'assets/images/slider-img/slider1-mobile.jpg';
+                this.slider2 = 'assets/images/slider-img/slider2-mobile.jpg';
+            } else {
+                this.slider1 = 'assets/images/slider-img/slider1.jpg';
+                this.slider2 = 'assets/images/slider-img/slider2.jpg';
+            }
             this.init();
+
+            window.onresize = () => {
+                if (window.innerWidth < 600) {
+                    this.slider1 = 'assets/images/slider-img/slider1-mobile.jpg';
+                    this.slider2 = 'assets/images/slider-img/slider2-mobile.jpg';
+                } else {
+                    this.slider1 = 'assets/images/slider-img/slider1.jpg';
+                    this.slider2 = 'assets/images/slider-img/slider2.jpg';
+                }
+                this.initSiteBackgroundImage();
+            }
+        },
+        data() {
+            return {
+                render: true,
+                slider1: '',
+                slider2: '',
+            }
         },
         methods: {
             init() {
                 this.initMainSlider();
                 this.initBackgroundImage();
+                this.initSiteBackgroundImage();
                 this.initWowAnimation();
                 this.initAccordian();
                 this.windowScroll();
@@ -618,8 +698,19 @@
             },
             /*----BACKGROUND IMAGE-----*/
             initBackgroundImage() {
-                $(".bg-image").css('background', function () {
+                $(".bg-image").css('background', function() {
                     var bg = ('url(' + $(this).data("image-src") + ') no-repeat center center');
+                    return bg;
+                });
+            },
+            initSiteBackgroundImage() {
+                let self = this;
+                $(".site-bg-image-1").css('background', function() {
+                    var bg = ('url(' + self.slider1 + ') center center / cover no-repeat');
+                    return bg;
+                })
+                $(".site-bg-image-2").css('background', function() {
+                    var bg = ('url(' + self.slider2 + ') center center / cover no-repeat');
                     return bg;
                 });
             },
@@ -642,13 +733,13 @@
             /*----ONSCROLL JS-----*/
             windowScroll() {
                 var self = this;
-                $(window).on("scroll", function () {
+                $(window).on("scroll", function() {
                     //self.initCounter();
                 });
             },
             /*----ACCORDIAN-----*/
             initAccordian() {
-                $(".question-card").on('click', function () {
+                $(".question-card").on('click', function() {
                     if ($(this).hasClass('active')) {
                         $('.question-card').removeClass('active');
                         $(this).removeClass('active')
@@ -690,7 +781,7 @@
             /*----ISOTOP JS-----*/
             initIsotop() {
                 var $container = $('.portfolio-items');
-                $container.imagesLoaded(function () {
+                $container.imagesLoaded(function() {
                     $container.isotope({
                         filter: '*',
                         animationOptions: {
@@ -701,7 +792,7 @@
                     });
                 });
 
-                $('.portfolio-filter li a').click(function () {
+                $('.portfolio-filter li a').click(function() {
                     $('.portfolio-filter .current').removeClass('current');
                     $(this).addClass('current');
                     var selector = $(this).attr('data-filter');
@@ -719,7 +810,7 @@
             /*----MAGNIFIC POPUP JS-----*/
             initMagnificPopup() {
                 if (('.portfolio-items').length > 0) {
-                    $('.portfolio-items').each(function () {
+                    $('.portfolio-items').each(function() {
                         $(this).magnificPopup({
                             delegate: '.js-zoom-gallery',
                             type: 'image',
@@ -735,7 +826,7 @@
                 var slides = $('.scale-image');
                 for (var i = 0; i < slides.length; i++) {
                     var image = $('img', slides[i]);
-                    var tween = TweenMax.to(image, 1, { scale: 1.2 });
+                    var tween = TweenMax.to(image, 1, {scale: 1.2});
                     var scene = new ScrollMagic
                         .Scene({
                             triggerElement: slides[i],
