@@ -33,27 +33,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/blog">Blog</router-link>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="portfolio-two-column.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                        <ul class="nav-bar submenu dropdown-menu list-unstyled p-0">
-                            <li class="nav-item">
-                                <router-link class="nav-link" to="/blogdetail">Blog Details</router-link>
-                            </li>
-                            <li class="nav-item">
-                                <router-link class="nav-link" to="/login">Login</router-link>                               
-                            </li>
-                            <li class="nav-item">
-                                <router-link class="nav-link" to="/signup">Register</router-link>
-                            </li>
-                            <li class="nav-item">
-                                <router-link class="nav-link" to="/error">404</router-link>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <router-link class="nav-link" to="/contact">Contact</router-link>
+                        <router-link class="nav-link" to="/contact">تواصل معنا</router-link>
                     </li>
                 </ul>
                 <div class="menu-close-btn"><i class="mdi mdi-close-circle-outline"></i></div>

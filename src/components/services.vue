@@ -93,72 +93,7 @@
         </section>
         <!-- End Services Top Area -->
         <!-- Start Services Area -->
-        <section class="section parallax-bg" id="services">
-            <div class="container">
-                <div class="section-title text-center z-index9">
-                    <span>OUR SERVICES</span>
-                    <h2 class="text-white">Our Best Service</h2>
-                </div>
-                <div class="service-boxes-area">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.2s" data-wow-duration="1s">
-                                <div class="icon">
-                                    <i class="mdi mdi-desktop-mac-dashboard"></i>
-                                </div>
-                                <h3>Clean Design</h3>
-                                <p>Lorem ipsum dolor sit amet,  adipiscing consectetur gravida elit</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.4s" data-wow-duration="1s">
-                                <div class="icon">
-                                    <i class="mdi mdi-responsive"></i>
-                                </div>
-                                <h3>Responsive Design</h3>
-                                <p>Lorem ipsum dolor sit amet,  adipiscing consectetur gravida elit</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.6s" data-wow-duration="1s">
-                                <div class="icon">
-                                    <i class="mdi mdi-rocket"></i>
-                                </div>
-                                <h3>Fast Boot</h3>
-                                <p>Lorem ipsum dolor sit amet,  adipiscing consectetur gravida elit</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.8s" data-wow-duration="1s">
-                                <div class="icon">
-                                    <i class="mdi mdi-chat-processing-outline"></i>
-                                </div>
-                                <h3>Chatting Service</h3>
-                                <p>Lorem ipsum dolor sit amet,  adipiscing consectetur gravida elit</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="1s" data-wow-duration="1s">
-                                <div class="icon">
-                                    <i class="mdi mdi-chart-bar"></i>
-                                </div>
-                                <h3>Analysis</h3>
-                                <p>Lorem ipsum dolor sit amet,  adipiscing consectetur gravida elit</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="1.2s" data-wow-duration="1s">
-                                <div class="icon">
-                                    <i class="mdi mdi-headphones-settings"></i>
-                                </div>
-                                <h3>Quick Support</h3>
-                                <p>Lorem ipsum dolor sit amet,  adipiscing consectetur gravida elit</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <OurServices/>
         <!-- End Services Area -->
         <!-- Start Services Bottom Area -->
         <section class="section">
@@ -219,8 +154,11 @@
     </div>
 </template>
 <script>
+    import OurServices from "../components/OurServices";
+
     export default {
         name: 'services',
+        components: {OurServices},
         mounted() {
             this.init();
         },

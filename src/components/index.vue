@@ -37,40 +37,56 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="about-title section-title">
                             <span>من نحن</span>
-                            <h2>Creative Business Solutions</h2>
+                            <h2>هذا نص المفروض انه كشخه</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="about-text pl-4">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+                            <p>
+                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
+                                رهيب
+                            </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="row align-items-center mt-4">
+                    <div class="col-lg-7">
+                        <div class="feature-contents section-heading wow fadeInUp"
+                             style="text-align: right"
+                             data-wow-duration="1s">
+
+                            <h1 class="font-18">
+                                حلول إبداعية
+                                <br>
+                                <span>لتصميم و تنفيذ المشاريع</span>
+                            </h1>
+                            <p>
+                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
+                                رهيب
+                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
+                                رهيب
+                            </p>
+                            <p>
+                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
+                                رهيب
+                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
+                                رهيب
+                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
+                                رهيب
+                            </p>
+                            <p>
+                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
+                                رهيب
+                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
+                                رهيب
+                            </p>
+                        </div>
+                    </div>
+
                     <div class="col-lg-5">
                         <div class="download-img scale-image wow fadeInUp" data-wow-duration="1s">
                             <img src="assets/images/aboutus/about.jpg" alt="download" class="w-100">
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="feature-contents section-heading wow fadeInUp" data-wow-duration="1s">
-                            <h1 class="font-18">
-                                Creative Solutions to <br>
-                                <span>Improve your Business</span>
-                            </h1>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                            </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify
-                                sustainable applications whereas adaptive schemas. Competently brand performance based
-                                content and.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify
-                                sustainable applications whereas adaptive schemas. Competently brand performance based
-                                content and.</p>
                         </div>
                     </div>
                 </div>
@@ -78,102 +94,31 @@
         </section>
         <!-- End About Area -->
         <!-- Start Services Area -->
-        <section class="section parallax-bg" id="services">
-            <div class="container">
-                <div class="section-title text-center z-index9">
-                    <span>OUR SERVICES</span>
-                    <h2 class="text-white">Our Best Service</h2>
-                </div>
-                <div class="service-boxes-area">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.2s"
-                                 data-wow-duration="1s">
-                                <div class="icon">
-                                    <i class="mdi mdi-desktop-mac-dashboard"></i>
-                                </div>
-                                <h3>Clean Design</h3>
-                                <p>Lorem ipsum dolor sit amet, adipiscing consectetur gravida elit</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.4s"
-                                 data-wow-duration="1s">
-                                <div class="icon">
-                                    <i class="mdi mdi-responsive"></i>
-                                </div>
-                                <h3>Responsive Design</h3>
-                                <p>Lorem ipsum dolor sit amet, adipiscing consectetur gravida elit</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.6s"
-                                 data-wow-duration="1s">
-                                <div class="icon">
-                                    <i class="mdi mdi-rocket"></i>
-                                </div>
-                                <h3>Fast Boot</h3>
-                                <p>Lorem ipsum dolor sit amet, adipiscing consectetur gravida elit</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.8s"
-                                 data-wow-duration="1s">
-                                <div class="icon">
-                                    <i class="mdi mdi-chat-processing-outline"></i>
-                                </div>
-                                <h3>Chatting Service</h3>
-                                <p>Lorem ipsum dolor sit amet, adipiscing consectetur gravida elit</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="1s"
-                                 data-wow-duration="1s">
-                                <div class="icon">
-                                    <i class="mdi mdi-chart-bar"></i>
-                                </div>
-                                <h3>Analysis</h3>
-                                <p>Lorem ipsum dolor sit amet, adipiscing consectetur gravida elit</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6">
-                            <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="1.2s"
-                                 data-wow-duration="1s">
-                                <div class="icon">
-                                    <i class="mdi mdi-headphones-settings"></i>
-                                </div>
-                                <h3>Quick Support</h3>
-                                <p>Lorem ipsum dolor sit amet, adipiscing consectetur gravida elit</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <OurServices/>
         <!-- End Services Area -->
         <!-- Start Portfolio Area -->
         <section class="section portfolio-section" id="portfolio">
             <div class="container">
                 <div class="section-title text-center z-index9">
-                    <span>OUR PORTFOLIO</span>
-                    <h2>Our Creative Portfolio</h2>
+                    <span>ملف الأعمال</span>
+                    <h2>ملف اعمالنا للخدمات المنفذة</h2>
                 </div>
                 <div class="d-flex justify-content-center wow fadeIn" data-wow-duration="1s">
                     <ul id="portfolio-filter" class="portfolio-filter filters mt-4 p-0">
                         <li class="button-border list-inline-item">
-                            <a href="#" data-filter="*" class="pill-button active">All</a>
+                            <a href="#" data-filter="*" class="pill-button">جميع الأعمال</a>
                         </li>
                         <li class="button-border list-inline-item">
-                            <a href="#" data-filter=".webdesign" class="pill-button">Web Design</a>
+                            <a href="#" data-filter=".webdesign" class="pill-button">اعمال التشطيبات</a>
                         </li>
                         <li class="button-border list-inline-item">
-                            <a href="#" data-filter=".mobiledesign" class="pill-button">Mobile Design</a>
+                            <a href="#" data-filter=".mobiledesign" class="pill-button">اعمال الشبكات</a>
                         </li>
                         <li class="button-border list-inline-item">
-                            <a href="#" data-filter=".seo" class="pill-button">Seo</a>
+                            <a href="#" data-filter=".seo" class="pill-button">اعمال الحديد و الألمونيوم</a>
                         </li>
                         <li class="button-border list-inline-item">
-                            <a href="#" data-filter=".graphic" class="pill-button">Graphic</a>
+                            <a href="#" data-filter=".graphic" class="pill-button">اعمال العظم</a>
                         </li>
                     </ul>
                 </div>
@@ -331,8 +276,8 @@
             <div class="testimonial-header-area bg-image" data-image-src="assets/images/testi/testi-bg.jpg">
                 <div class="container">
                     <div class="text-center section-title">
-                        <span>OUR CLIENTS</span>
-                        <h2>What they says about us</h2>
+                        <span>شركائنا</span>
+                        <h2>شركاء النجاح في كود التشييد</h2>
                     </div>
                 </div>
             </div>
@@ -343,52 +288,12 @@
                             <div class="client-swiper-slider mt-4">
                                 <div class="client-container">
                                     <div class="swiper-wrapper ">
-                                        <div class="swiper-slide">
+                                        <div class="swiper-slide" v-for="partner of partners" :key="partner">
                                             <div class="testimonial-item bg-white">
-                                                <h6 class="client-title font-20">Rex Watson</h6>
-                                                <span class="client-designation">Everline, Product Manager</span>
                                                 <figure class="client-thumb">
                                                     <img src="assets/images/testi/client.jpg"
                                                          class="img-fluid rounded-circle" alt="Client">
                                                 </figure>
-                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of
-                                                    developers are willing to go mile for customer service! Thanks!"</p>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="testimonial-item bg-white">
-                                                <h6 class="client-title font-20">Rex Watson</h6>
-                                                <span class="client-designation">Everline, Product Manager</span>
-                                                <figure class="client-thumb">
-                                                    <img src="assets/images/testi/client.jpg"
-                                                         class="img-fluid rounded-circle" alt="Client">
-                                                </figure>
-                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of
-                                                    developers are willing to go mile for customer service! Thanks!"</p>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="testimonial-item bg-white">
-                                                <h6 class="client-title font-20">Rex Watson</h6>
-                                                <span class="client-designation">Everline, Product Manager</span>
-                                                <figure class="client-thumb">
-                                                    <img src="assets/images/testi/client.jpg"
-                                                         class="img-fluid rounded-circle" alt="Client">
-                                                </figure>
-                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of
-                                                    developers are willing to go mile for customer service! Thanks!"</p>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="testimonial-item bg-white">
-                                                <h6 class="client-title font-20">Rex Watson</h6>
-                                                <span class="client-designation">Everline, Product Manager</span>
-                                                <figure class="client-thumb">
-                                                    <img src="assets/images/testi/client.jpg"
-                                                         class="img-fluid rounded-circle" alt="Client">
-                                                </figure>
-                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of
-                                                    developers are willing to go mile for customer service! Thanks!"</p>
                                             </div>
                                         </div>
                                     </div>
@@ -407,17 +312,18 @@
             <div class="container">
                 <div class="z-index9 wow fadeIn" data-wow-duration="1s">
                     <h2 class="text-white text-center">
-                        Start Managing your<br/> apps business, more faster
+                        إبدأ بتصميم و تنفيذ<br/> مشروعك بأفضل التقنيات
                     </h2>
                     <div class="d-flex justify-content-center mt-4">
-                        <button class="btn outline-theme-btn">CONTACT NOW</button>
+                        <button class="btn outline-theme-btn">تواصل معنا الأن</button>
                     </div>
                 </div>
             </div>
         </section>
         <!-- End Jumbstrom Area -->
+
         <!-- Start Faq's Area -->
-        <section class="section">
+        <section class="section" v-if="false">
             <div class="container">
                 <div class="text-center section-title">
                     <span>FAQ's</span>
@@ -526,6 +432,7 @@
             </div>
         </section>
         <!-- End Faq's Area -->
+
         <!-- Start Contact Area -->
         <section class="section bg-light" id="contact">
             <div class="container">
@@ -533,81 +440,44 @@
                     <div class="col-12 pb-3 message-box d-none">
                         <div class="alert alert-danger"></div>
                     </div>
-                    <div class="col-md-5">
-                        <div class="wow fadeInLeft" data-wow-duration="1s">
+                    <div class="col-md-7">
+                        <div class="wow fadeInLeft" data-wow-duration="1s" style="text-align: right">
                             <div class="section-heading">
-                                <h3>Contact with us</h3>
+                                <h3>تواصل معنا</h3>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged.
+                                    يرجى التواصل معنا لترتيب المواعيد اللازمة لمناقشة وتخطيط المشاريع الهندسية
+                                    وبذلك نستطيع البدء في العمل على مشروعك القادم.
+                                    تستطيع زيارتنا على العنوان الموضح ادناه او التواصل مباشرة معنا عن طريق ارقام التواصل المذكورة
                                 </p>
                             </div>
                             <div class="footer-address mt-4">
-                                <h6 class="font-20 mb-3"><strong>Head Office</strong></h6>
+                                <h6 class="font-20 mb-3">
+                                    <strong>موقع مكتبنا الرئيسي</strong>
+                                </h6>
                                 <ul class="list-unstyled">
-                                    <li class="mb-3"><i class="mdi-map-marker mdi mr-2"></i><span>300 King St, Melbourne VIC 5000, Australia</span>
-                                    </li>
-                                    <li class="mb-3"><i class="mdi-cellphone mdi mr-2"></i><span>+xx x xxxx xxxx</span>
+                                    <li class="mb-3">
+                                        <i class="mdi-map-marker mdi mr-2"></i>
+                                        <span>الرياض، شارع عثمان بن عفان، </span>
                                     </li>
                                     <li class="mb-3">
-                                        <i class="mdi-email mdi mr-2"></i><span><a href="mailto:hello@yourdomain.com"
-                                                                                   class="text-dark">hello@yourdomain.com</a></span>
+                                        <i class="mdi-cellphone mdi mr-2"></i>
+                                        <span>+xx x xxxx xxxx</span>
+                                    </li>
+                                    <li class="mb-3">
+                                        <i class="mdi-email mdi mr-2"></i>
+                                        <span>
+                                            <a href="mailto:hello@yourdomain.com"
+                                               class="text-dark">hello@yourdomain.com</a>
+                                        </span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7">
-                        <form class="wow fadeInRight" data-wow-duration="1s">
-                            <h5>Reach us quickly</h5>
-                            <div class="row">
-                                <div class="col-sm-6 col-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="name" placeholder="Enter name"
-                                               required="required">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-12">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" name="email" placeholder="Enter email"
-                                               required="required">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6 col-12">
-                                    <div class="form-group">
-                                        <input type="text" name="phone" value="" class="form-control"
-                                               placeholder="Your Phone">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-12">
-                                    <div class="form-group">
-                                        <input type="text" name="company" value="" size="40" class="form-control"
-                                               placeholder="Your Company">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea name="message" class="form-control" rows="7" cols="25"
-                                                  placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <button type="submit" class="btn theme-btn">
-                                        Send Message
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                        <p class="form-message"></p>
+                    <div class="col-lg-5">
+                        <div class="download-img scale-image wow fadeInUp" data-wow-duration="1s">
+                            <img src="assets/images/aboutus/about.jpg" alt="download" class="w-100">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -618,33 +488,34 @@
 <script>
     //WOW JS
     import {WOW} from 'wowjs';
-
     // import Swiper styles
     import '../assets/css/swiper.min.css';
     // core version + navigation, pagination modules:
     import Swiper, {Navigation, Pagination} from 'swiper';
-    // configure Swiper to use modules
-    Swiper.use([Navigation, Pagination]);
     //ISOTOP JS
     import '../assets/js/jquery.isotope.min.js';
     import * as ScrollMagic from "scrollmagic"; // Or use scrollmagic-with-ssr to avoid server rendering problems
-    import {TweenMax, TimelineMax} from "gsap"; // Also works with TweenLite and TimelineLite
+    import {TimelineMax, TweenMax} from "gsap"; // Also works with TweenLite and TimelineLite
     import {ScrollMagicPluginGsap} from "scrollmagic-plugin-gsap";
-
-    ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
-
     //MAGNIFIC POPUP JS
     import 'magnific-popup/dist/jquery.magnific-popup.min.js';
     import 'magnific-popup/dist/magnific-popup.css';
+    import OurServices from "../components/OurServices";
+    // configure Swiper to use modules
+    Swiper.use([Navigation, Pagination]);
+
+    ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
 
     export default {
-        name: 'index', mounted() {
+        name: 'index',
+        components: {OurServices},
+        mounted() {
             if (window.innerWidth < 600) {
                 this.slider1 = 'assets/images/slider-img/slider1-mobile.jpg';
                 this.slider2 = 'assets/images/slider-img/slider2-mobile.jpg';
             } else {
-                this.slider1 = 'assets/images/slider-img/slider1.jpg';
-                this.slider2 = 'assets/images/slider-img/slider2.jpg';
+                this.slider1 = 'assets/images/slider-img/slider2.jpg';
+                this.slider2 = 'assets/images/slider-img/slider1.jpg';
             }
             this.init();
 
@@ -653,8 +524,8 @@
                     this.slider1 = 'assets/images/slider-img/slider1-mobile.jpg';
                     this.slider2 = 'assets/images/slider-img/slider2-mobile.jpg';
                 } else {
-                    this.slider1 = 'assets/images/slider-img/slider1.jpg';
-                    this.slider2 = 'assets/images/slider-img/slider2.jpg';
+                    this.slider1 = 'assets/images/slider-img/slider2.jpg';
+                    this.slider2 = 'assets/images/slider-img/slider1.jpg';
                 }
                 this.initSiteBackgroundImage();
             }
@@ -664,6 +535,16 @@
                 render: true,
                 slider1: '',
                 slider2: '',
+                partners: [
+                    '',
+                    '',
+                    '',
+                    '',
+                    '',
+                    '',
+                    '',
+                    '',
+                ]
             }
         },
         methods: {
