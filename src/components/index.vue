@@ -271,42 +271,10 @@
             </div>
         </section>
         <!-- End Portfolio Area -->
-        <!-- Start Testimonial Area -->
-        <section class="section pt-0 testimonial-section" id="testimonial">
-            <div class="testimonial-header-area bg-image" data-image-src="assets/images/testi/testi-bg.jpg">
-                <div class="container">
-                    <div class="text-center section-title">
-                        <span>شركائنا</span>
-                        <h2>شركاء النجاح في كود التشييد</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-content-area wow fadeIn" data-wow-duration="1s">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="client-swiper-slider mt-4">
-                                <div class="client-container">
-                                    <div class="swiper-wrapper ">
-                                        <div class="swiper-slide" v-for="partner of partners" :key="partner">
-                                            <div class="testimonial-item bg-white">
-                                                <figure class="client-thumb">
-                                                    <img src="assets/images/testi/client.jpg"
-                                                         class="img-fluid rounded-circle" alt="Client">
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Add Pagination -->
-                                    <div class="swiper-pagination"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Testimonial Area -->
+
+        <!-- Start partners Area -->
+        <Partners/>
+        <!-- End partners Area -->
         <!-- Start Jumbstrom Area -->
         <section class="section parallax-bg">
             <div class="container">
@@ -447,7 +415,8 @@
                                 <p>
                                     يرجى التواصل معنا لترتيب المواعيد اللازمة لمناقشة وتخطيط المشاريع الهندسية
                                     وبذلك نستطيع البدء في العمل على مشروعك القادم.
-                                    تستطيع زيارتنا على العنوان الموضح ادناه او التواصل مباشرة معنا عن طريق ارقام التواصل المذكورة
+                                    تستطيع زيارتنا على العنوان الموضح ادناه او التواصل مباشرة معنا عن طريق ارقام التواصل
+                                    المذكورة
                                 </p>
                             </div>
                             <div class="footer-address mt-4">
@@ -501,6 +470,7 @@
     import 'magnific-popup/dist/jquery.magnific-popup.min.js';
     import 'magnific-popup/dist/magnific-popup.css';
     import OurServices from "../components/OurServices";
+    import Partners from "../components/Partners";
     // configure Swiper to use modules
     Swiper.use([Navigation, Pagination]);
 
@@ -508,7 +478,7 @@
 
     export default {
         name: 'index',
-        components: {OurServices},
+        components: {Partners, OurServices},
         mounted() {
             if (window.innerWidth < 600) {
                 this.slider1 = 'assets/images/slider-img/slider1-mobile.jpg';
@@ -535,16 +505,6 @@
                 render: true,
                 slider1: '',
                 slider2: '',
-                partners: [
-                    '',
-                    '',
-                    '',
-                    '',
-                    '',
-                    '',
-                    '',
-                    '',
-                ]
             }
         },
         methods: {
@@ -555,7 +515,6 @@
                 this.initWowAnimation();
                 this.initAccordian();
                 this.windowScroll();
-                this.initTestimonialSlider();
                 this.initFooterHeight();
                 this.initIsotop();
                 this.initMagnificPopup();
@@ -629,35 +588,6 @@
                         $(this).addClass('active')
                     }
                 });
-            },
-            /*----TESTIMONIAL SLIDER-----*/
-            initTestimonialSlider() {
-                if ($('.swiper-container').length > 0) {
-                    var swiper = new Swiper('.client-container', {
-                        slidesPerView: 1,
-                        draggable: true,
-                        spaceBetween: 10,
-                        // init: false,
-                        pagination: {
-                            el: '.swiper-pagination',
-                            clickable: true,
-                        },
-                        breakpoints: {
-                            640: {
-                                slidesPerView: 1,
-                                spaceBetween: 20,
-                            },
-                            768: {
-                                slidesPerView: 2,
-                                spaceBetween: 40,
-                            },
-                            1024: {
-                                slidesPerView: 3,
-                                spaceBetween: 50,
-                            },
-                        }
-                    });
-                }
             },
             /*----ISOTOP JS-----*/
             initIsotop() {

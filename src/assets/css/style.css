@@ -542,7 +542,7 @@ a, a:hover, a:focus, button, button:focus {
         7.SERVICES
 ============================*/
 .parallax-bg {
-    background: url(../images/services/service-bg.jpg) no-repeat center fixed;
+    background: url(/assets/images/construction-site.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
@@ -1137,7 +1137,7 @@ a, a:hover, a:focus, button, button:focus {
     }
 
 .client-thumb img {
-    width: 100px;
+    height: 100px;
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
