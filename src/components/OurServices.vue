@@ -11,7 +11,7 @@
                         <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.2s"
                              data-wow-duration="1s">
                             <div class="icon">
-                                <i class="mdi mdi-desktop-mac-dashboard"></i>
+                                <i class="mdi mdi-format-paint"></i>
                             </div>
                             <h3>اعمال التشطيبات</h3>
                             <p>
@@ -23,7 +23,7 @@
                         <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.4s"
                              data-wow-duration="1s">
                             <div class="icon">
-                                <i class="mdi mdi-responsive"></i>
+                                <i class="mdi mdi-ruler"></i>
                             </div>
                             <h3>اعمال الشبكات</h3>
                             <p>تصميم و تخطيط و تنفيذ اعمال الشبكات لجميع المباني</p>
@@ -33,7 +33,7 @@
                         <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.6s"
                              data-wow-duration="1s">
                             <div class="icon">
-                                <i class="mdi mdi-rocket"></i>
+                                <i class="mdi mdi-factory"></i>
                             </div>
                             <h3>اعمال الحديد و الالمنيوم</h3>
                             <p>
@@ -45,7 +45,7 @@
                         <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="0.8s"
                              data-wow-duration="1s">
                             <div class="icon">
-                                <i class="mdi mdi-chat-processing-outline"></i>
+                                <i class="mdi mdi-city"></i>
                             </div>
                             <h3>اعمال الترميم</h3>
                             <p>
@@ -57,7 +57,7 @@
                         <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="1s"
                              data-wow-duration="1s">
                             <div class="icon">
-                                <i class="mdi mdi-chart-bar"></i>
+                                <i class="mdi mdi-login"></i>
                             </div>
                             <h3>اعمال نجارة الموبيليا</h3>
                             <p>
@@ -69,7 +69,7 @@
                         <div class="single-service-box mt-30 p-4 bg-white wow fadeIn" data-wow-delay="1.2s"
                              data-wow-duration="1s">
                             <div class="icon">
-                                <i class="mdi mdi-headphones-settings"></i>
+                                <i class="mdi mdi-domain"></i>
                             </div>
                             <h3>اعمال العظم</h3>
                             <p>

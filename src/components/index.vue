@@ -457,7 +457,7 @@
                                 <ul class="list-unstyled">
                                     <li class="mb-3">
                                         <i class="mdi-map-marker mdi mr-2"></i>
-                                        <span>الرياض، شارع عثمان بن عفان، </span>
+                                        <span>الرياض، شارع ابي بكر الصديق </span>
                                     </li>
                                     <li class="mb-3">
                                         <i class="mdi-cellphone mdi mr-2"></i>
