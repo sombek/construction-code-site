@@ -82,6 +82,12 @@
         </div>
     </section>
 </template>
+<style scoped>
+    .parallax-bg {
+        background: url(https://assets.dmagstatic.com/wp-content/uploads/2018/12/dallas-construction.jpg) no-repeat center fixed;
+        background-size: cover;
+    }
+</style>
 <script>
     export default {
         name: 'OurServices'
