@@ -18,19 +18,8 @@
                     <li class="nav-item">
                         <router-link class="nav-link" to="/services">خدماتنا</router-link>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a href="portfolio-two-column.html" class="nav-link dropdown-toggle" data-toggle="dropdown">معرض الأعمال</a>
-                        <ul class="nav-bar submenu dropdown-menu list-unstyled p-0">
-                            <li class="nav-item">
-                                <router-link class="nav-link" to="/portfolio2">Two Column</router-link>
-                            </li>
-                            <li class="nav-item">
-                                <router-link class="nav-link" to="/portfolio3">Three Column</router-link>
-                            </li>
-                            <li class="nav-item">
-                                <router-link class="nav-link" to="/portfolio4">Four Column</router-link>
-                            </li>
-                        </ul>
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/ourWorks">معرض الأعمال</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link class="nav-link" to="/contact">تواصل معنا</router-link>

@@ -1,0 +1,153 @@
+<template>
+    <div class="main-content">
+        <!-- BradCrumb header Start-->
+        <section class="inner-header-bg">
+            <div class="container">
+                <!-- Breadcrumb Start-->
+                <div class="section-breadcrumb">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 justify-content-center align-self-center pb-2">
+                                <div class="breadcrumb-content">
+                                    <div class="title-section">
+                                        <h1 class="title text-center text-white">
+                                            اعمالنا
+                                        </h1>
+                                    </div>
+                                    <div class="breadcrumb-nav">
+                                        <ul class="breadcrumb-link text-center list-unstyled mb-0">
+                                            <li class="text-white">
+                                                <i class="mdi mdi-home theme-light-color pr-2"></i>
+                                                <a href="index.html">الرئيسية</a>
+                                            </li>
+                                            <li class="theme-light-color active">اعمالنا</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Breadcrumb End -->
+            </div>
+        </section>
+        <!-- BradCrumb header End -->
+
+
+        <!-- Start Portfolio Area -->
+        <Portfolio/>
+        <!-- End Portfolio Area -->
+
+    </div>
+</template>
+<script>
+    import Portfolio from "../components/Portfolio";
+
+    //WOW JS
+    import {WOW} from 'wowjs';
+    // import Swiper styles
+    import '../assets/css/swiper.min.css';
+    // core version + navigation, pagination modules:
+    import Swiper, {Navigation, Pagination} from 'swiper';
+    // configure Swiper to use modules
+    Swiper.use([Navigation, Pagination]);
+    export default {
+        components: {Portfolio},
+
+        name: 'about',
+        mounted() {
+            this.init();
+        },
+        methods: {
+            init() {
+                this.initWowAnimation();
+                this.initBackgroundImage();
+                this.initFooterHeight();
+                this.initCounter();
+                this.initTestimonialSlider();
+            },
+            /*----WOW ANIMATION-----*/
+            initWowAnimation() {
+                var length = $('.wow').length;
+                if (length >= 1) {
+                    const wow = new WOW({
+                        boxClass: 'wow',
+                        animateClass: 'animated',
+                        offset: 0,
+                    });
+                    wow.init();
+                }
+            },
+            /*----BACKGROUND IMAGE-----*/
+            initBackgroundImage() {
+                $(".bg-image").css('background', function() {
+                    var bg = ('url(' + $(this).data("image-src") + ') no-repeat center center');
+                    return bg;
+                });
+            },
+            initFooterHeight() {
+                var footerHeight = $("footer").outerHeight();
+                $('.main-content').css('margin-bottom', footerHeight);
+            },
+            /*----TESTIMONIAL SLIDER-----*/
+            initTestimonialSlider() {
+                if ($('.swiper-container').length > 0) {
+                    var swiper = new Swiper('.client-container', {
+                        slidesPerView: 1,
+                        draggable: true,
+                        spaceBetween: 10,
+                        // init: false,
+                        pagination: {
+                            el: '.swiper-pagination',
+                            clickable: true,
+                        },
+                        breakpoints: {
+                            640: {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                            768: {
+                                slidesPerView: 2,
+                                spaceBetween: 40,
+                            },
+                            1024: {
+                                slidesPerView: 3,
+                                spaceBetween: 50,
+                            },
+                        }
+                    });
+                }
+            },
+            /*----COUNTER-----*/
+            initCounter() {
+                $.fn.jQuerySimpleCounter = function(options) {
+                    var settings = $.extend({
+                        start: 0,
+                        end: 100,
+                        easing: 'swing',
+                        duration: 400,
+                        complete: ''
+                    }, options);
+
+                    var thisElement = $(this);
+
+                    $({count: settings.start}).animate({count: settings.end}, {
+                        duration: settings.duration,
+                        easing: settings.easing,
+                        step: function() {
+                            var mathCount = Math.ceil(this.count);
+                            thisElement.text(mathCount);
+                        },
+                        complete: settings.complete
+                    });
+                };
+
+
+                $('#number1').jQuerySimpleCounter({end: 69, duration: 3000});
+                $('#number2').jQuerySimpleCounter({end: 45, duration: 3000});
+                $('#number3').jQuerySimpleCounter({end: 212, duration: 2000});
+                $('#number4').jQuerySimpleCounter({end: 64, duration: 3000});
+            }
+        }
+    }
+</script>

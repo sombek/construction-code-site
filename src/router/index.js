@@ -12,6 +12,7 @@ import contact from '@/components/contact'
 import error from '@/components/error'
 import login from '@/components/login'
 import signup from '@/components/signup'
+import ourWorks from "@/components/ourWorks";
 
 Vue.use(Router)
 
@@ -33,57 +34,22 @@ export default new Router({
             component: services
         },
         {
-            path: '/portfolio2',
-            name: 'portfolio2',
-            component: portfolio2
-        },
-        {
-            path: '/portfolio3',
-            name: 'portfolio3',
-            component: portfolio3
-        },
-        {
-            path: '/portfolio4',
-            name: 'portfolio4',
-            component: portfolio4
-        },
-        {
-            path: '/blog',
-            name: 'blog',
-            component: blog
-        },
-        {
-            path: '/blogdetail',
-            name: 'blogdetail',
-            component: blogdetail
-        },
-        {
-            path: '/error',
-            name: 'error',
-            component: error
-        },
-        {
-            path: '/login',
-            name: 'login',
-            component: login
-        },
-        {
-            path: '/signup',
-            name: 'signup',
-            component: signup
+            path: '/ourWorks',
+            name: 'ourWorks',
+            component: ourWorks
         },
         {
             path: '/contact',
             name: 'contact',
             component: contact
         },
-        
+
     ],
     scrollBehavior(to, from, savedPosition) {
         if (savedPosition) {
             return savedPosition
         } else {
-            return { x: 0, y: 0 }
+            return {x: 0, y: 0}
         }
     }
 })
