@@ -10,15 +10,17 @@
                             <div class="col-md-12 justify-content-center align-self-center pb-2">
                                 <div class="breadcrumb-content">
                                     <div class="title-section">
-                                        <h1 class="title text-center text-white">About Us</h1>
+                                        <h1 class="title text-center text-white">
+                                            من نحن
+                                        </h1>
                                     </div>
                                     <div class="breadcrumb-nav">
                                         <ul class="breadcrumb-link text-center list-unstyled mb-0">
                                             <li class="text-white">
                                                 <i class="mdi mdi-home theme-light-color pr-2"></i>
-                                                <a href="index.html">Home</a>
+                                                <a href="index.html">الرئيسية</a>
                                             </li>
-                                            <li class="theme-light-color active">About Us</li>
+                                            <li class="theme-light-color active">من نحن</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -30,14 +32,15 @@
             </div>
         </section>
         <!-- BradCrumb header End -->
+
         <!-- About-bottom section Start-->
-        <section class="section about-bottom">
+        <section class="section about-bottom" style="text-align: right">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-7 col-sm-12">
                         <div class="section-title">
-                            <span>ABOUT US</span>
-                            <h2>Creative Solutions to Improve your Business</h2>
+                            <span>من نحن</span>
+                            <h2>حلول إبداعية لتصميم وتنفيذ المشاريع</h2>
                         </div>
                         <p class="about-text mt-4">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
@@ -50,7 +53,7 @@
                                             <h4 class="font-20 theme-light-color">01.</h4>
                                         </div>
                                         <div class="about_desc section-title">
-                                            <h5 class="font-20">Creative Strategy</h5>
+                                            <h5 class="font-20">التنفيذ</h5>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
                                         </div>
                                     </div>
@@ -61,7 +64,7 @@
                                             <h4 class="font-20 theme-light-color">02.</h4>
                                         </div>
                                         <div class="about_desc section-title">
-                                            <h5 class="font-20">Digital Solutions</h5>
+                                            <h5 class="font-20">التصميم</h5>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
                                         </div>
                                     </div>
@@ -78,79 +81,12 @@
             </div>
         </section>
         <!-- About-bottom section End-->
-        <!-- Start Testimonial Area -->
-        <section class="section pt-0 swiper-container testimonial-section" id="testimonial">
-            <div class="testimonial-header-area bg-image" data-image-src="assets/images/testi/testi-bg.jpg">
-                <div class="container">
-                    <div class="text-center section-title">
-                        <span>OUR CLIENTS</span>
-                        <h2>What they says about us</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-content-area wow fadeIn" data-wow-duration="1s">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="client-swiper-slider mt-4">
-                                <div class="client-container">
-                                    <div class="swiper-wrapper ">
-                                        <div class="swiper-slide">
-                                            <div class="testimonial-item bg-white">
-                                                <h6 class="client-title font-20">Rex Watson</h6>
-                                                <span class="client-designation">Everline, Product Manager</span>
-                                                <figure class="client-thumb">
-                                                    <img src="assets/images/testi/client.jpg" class="img-fluid rounded-circle" alt="Client">
-                                                </figure>
-                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of developers are willing to go mile for customer service! Thanks!"</p>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="testimonial-item bg-white">
-                                                <h6 class="client-title font-20">Rex Watson</h6>
-                                                <span class="client-designation">Everline, Product Manager</span>
-                                                <figure class="client-thumb">
-                                                    <img src="assets/images/testi/client.jpg" class="img-fluid rounded-circle" alt="Client">
-                                                </figure>
-                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of developers are willing to go mile for customer service! Thanks!"</p>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="testimonial-item bg-white">
-                                                <h6 class="client-title font-20">Rex Watson</h6>
-                                                <span class="client-designation">Everline, Product Manager</span>
-                                                <figure class="client-thumb">
-                                                    <img src="assets/images/testi/client.jpg" class="img-fluid rounded-circle" alt="Client">
-                                                </figure>
-                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of developers are willing to go mile for customer service! Thanks!"</p>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="testimonial-item bg-white">
-                                                <h6 class="client-title font-20">Rex Watson</h6>
-                                                <span class="client-designation">Everline, Product Manager</span>
-                                                <figure class="client-thumb">
-                                                    <img src="assets/images/testi/client.jpg" class="img-fluid rounded-circle" alt="Client">
-                                                </figure>
-                                                <p class="mb-0">"Amazing fast and reliable customer support! The team of developers are willing to go mile for customer service! Thanks!"</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Add Pagination -->
-                                    <div class="swiper-pagination"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Testimonial Area -->
+
         <!-- Funfacts Area Start -->
         <section class="section fun-facts bg-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-6">
+                    <div class="col-md-4 col-8">
                         <div class="d-flex align-items-center facts-item">
                             <div class="icon border-right">
                                 <span class="theme-light-color mdi mdi-cube-outline"></span>
@@ -160,25 +96,11 @@
                                     <span id="number1" class="funfact-number">69</span>
                                     <span class="plus-icon">+</span>
                                 </div>
-                                <p class="name">Projects</p>
+                                <p class="name">مشروع</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-6">
-                        <div class="d-flex align-items-center facts-item">
-                            <div class="icon border-right">
-                                <span class="theme-light-color mdi mdi-trophy-outline"></span>
-                            </div>
-                            <div class="funfacts-items">
-                                <div>
-                                    <span id="number2" class="funfact-number">45</span>
-                                    <span class="plus-icon">+</span>
-                                </div>
-                                <p class="name">Awards Winning</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-6">
+                    <div class="col-md-4 col-8">
                         <div class="d-flex align-items-center facts-item">
                             <div class="icon border-right">
                                 <span class="theme-light-color mdi mdi-account-group-outline"></span>
@@ -188,21 +110,21 @@
                                     <span id="number3" class="funfact-number">212</span>
                                     <span class="plus-icon">+</span>
                                 </div>
-                                <p class="name">Satisfied clients</p>
+                                <p class="name">عميل</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-6">
+                    <div class="col-md-4 col-8">
                         <div class="d-flex align-items-center facts-item">
                             <div class="icon border-right">
                                 <span class="theme-light-color mdi mdi-trending-up"></span>
                             </div>
                             <div class="funfacts-items">
                                 <div>
-                                    <span id="number4" class="funfact-number">64</span>
+                                    <span id="number4" class="funfact-number">21</span>
                                     <span class="plus-icon">+</span>
                                 </div>
-                                <p class="name">Industry Expertise</p>
+                                <p class="name">خبراء الفريق</p>
                             </div>
                         </div>
                     </div>
