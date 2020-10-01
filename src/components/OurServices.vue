@@ -13,9 +13,9 @@
                             <div class="icon">
                                 <i class="mdi mdi-format-paint"></i>
                             </div>
-                            <h3>اعمال التشطيبات</h3>
+                            <h3>التشطيبات</h3>
                             <p>
-                                تنفيذ جميع اعمال التشطيبات من الدهانات و جبس و رخام و بلاط
+                                نتقن كل مايخص التشطبيات من دهان وجبس ورخام وبلاط
                             </p>
                         </div>
                     </div>
@@ -25,8 +25,9 @@
                             <div class="icon">
                                 <i class="mdi mdi-ruler"></i>
                             </div>
-                            <h3>اعمال الشبكات</h3>
-                            <p>تصميم و تخطيط و تنفيذ اعمال الشبكات لجميع المباني</p>
+                            <h3>الشبكات</h3>
+                            <p>نصمم ونخطط وننفذ أعمال الشبكات لكافّة أنواع المباني
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
@@ -35,9 +36,10 @@
                             <div class="icon">
                                 <i class="mdi mdi-factory"></i>
                             </div>
-                            <h3>اعمال الحديد و الالمنيوم</h3>
+                            <h3>الحديد والألمنيوم
+                            </h3>
                             <p>
-                                تقديم الخدمات العملية مثل ابواب الألمنيوم و الأبواب الحديدية
+                                نصمم ونصنع أبواب الألمنيوم والأبواب الحديدية
                             </p>
                         </div>
                     </div>
@@ -47,9 +49,9 @@
                             <div class="icon">
                                 <i class="mdi mdi-city"></i>
                             </div>
-                            <h3>اعمال الترميم</h3>
+                            <h3>الترميم</h3>
                             <p>
-                                إعادة ترميم الفلل و القصور القديمة حسب متطلبات العميل
+                                نرمم الفلل والقصور القديمة حسب متطلبات العميل
                             </p>
                         </div>
                     </div>
@@ -59,9 +61,9 @@
                             <div class="icon">
                                 <i class="mdi mdi-login"></i>
                             </div>
-                            <h3>اعمال نجارة الموبيليا</h3>
+                            <h3>نجارة الموبيليا</h3>
                             <p>
-                                نستطيع تقديم الخدمات المتعلقة بالأعمال النجارة مثل غرف النوم والدواليب وغيرهم
+                                نقدم كل الخدمات المتعلقة بأعمال النجارة كغرف النوم والدواليب وغيرها
                             </p>
                         </div>
                     </div>
@@ -71,9 +73,9 @@
                             <div class="icon">
                                 <i class="mdi mdi-domain"></i>
                             </div>
-                            <h3>اعمال العظم</h3>
+                            <h3>العظم</h3>
                             <p>
-                                يتم العمل على جميع الخطوات من نجارة و حديد و مباني
+                                خطوة بخطوة ننجز كل أعمال النجارة والحديد والمباني
                             </p>
                         </div>
                     </div>
@@ -90,6 +92,44 @@
 </style>
 <script>
     export default {
-        name: 'OurServices'
+        name: 'OurServices',
+        mounted() {
+            this.init();
+        },
+        methods: {
+            init() {
+                this.initCounter();
+            },
+            /*----COUNTER-----*/
+            initCounter() {
+                $.fn.jQuerySimpleCounter = function (options) {
+                    var settings = $.extend({
+                        start: 0,
+                        end: 100,
+                        easing: 'swing',
+                        duration: 400,
+                        complete: ''
+                    }, options);
+
+                    var thisElement = $(this);
+
+                    $({ count: settings.start }).animate({ count: settings.end }, {
+                        duration: settings.duration,
+                        easing: settings.easing,
+                        step: function () {
+                            var mathCount = Math.ceil(this.count);
+                            thisElement.text(mathCount);
+                        },
+                        complete: settings.complete
+                    });
+                };
+
+
+                $('#number1').jQuerySimpleCounter({ end: 69, duration: 3000 });
+                $('#number3').jQuerySimpleCounter({ end: 212, duration: 2000 });
+                $('#number4').jQuerySimpleCounter({ end: 32, duration: 1500 });
+            }
+        }
     }
+
 </script>

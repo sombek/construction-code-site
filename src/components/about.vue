@@ -39,11 +39,11 @@
                 <div class="row align-items-center">
                     <div class="col-md-7 col-sm-12">
                         <div class="section-title">
-                            <span>من نحن</span>
-                            <h2>حلول إبداعية لتصميم وتنفيذ المشاريع</h2>
+                            <span>ماهي</span>
+                            <h2>مؤسسة كود التشييد</h2>
                         </div>
                         <p class="about-text mt-4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                            كود التشييد ليست مجرد شركة مقاولات عامّة بل ركن وحجر زاوية في قطاع التشييد والعمران: أحد أكبر القطاعات الاقتصادية في المملكة.
                         </p>
                         <div class="mt-4">
                             <div class="row">
@@ -53,8 +53,10 @@
                                             <h4 class="font-20 theme-light-color">01.</h4>
                                         </div>
                                         <div class="about_desc section-title">
-                                            <h5 class="font-20">التنفيذ</h5>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                            <h5 class="font-20">رسالتنا</h5>
+                                            <p>
+                                                أن نكوّن خبراتنا ونسخر القدرات لبناء مجتمعات تقوم على عمران حديث بمواصفات هندسية عالمية في وقت قياسي وبأسعار منافسة.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -64,8 +66,10 @@
                                             <h4 class="font-20 theme-light-color">02.</h4>
                                         </div>
                                         <div class="about_desc section-title">
-                                            <h5 class="font-20">التصميم</h5>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                            <h5 class="font-20">رؤيتنا</h5>
+                                            <p>
+                                                أن نساهم في خلق بيئات آمنة وملائمة وحديثة قائمة على الإبداع والتطوير  في جميع أنحاء المملكة.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -82,148 +86,7 @@
         </section>
         <!-- About-bottom section End-->
 
-        <!-- Funfacts Area Start -->
-        <section class="section fun-facts bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-8">
-                        <div class="d-flex align-items-center facts-item">
-                            <div class="icon border-right">
-                                <span class="theme-light-color mdi mdi-cube-outline"></span>
-                            </div>
-                            <div class="funfacts-items">
-                                <div>
-                                    <span id="number1" class="funfact-number">69</span>
-                                    <span class="plus-icon">+</span>
-                                </div>
-                                <p class="name">مشروع</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-8">
-                        <div class="d-flex align-items-center facts-item">
-                            <div class="icon border-right">
-                                <span class="theme-light-color mdi mdi-account-group-outline"></span>
-                            </div>
-                            <div class="funfacts-items">
-                                <div>
-                                    <span id="number3" class="funfact-number">212</span>
-                                    <span class="plus-icon">+</span>
-                                </div>
-                                <p class="name">عميل</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-8">
-                        <div class="d-flex align-items-center facts-item">
-                            <div class="icon border-right">
-                                <span class="theme-light-color mdi mdi-trending-up"></span>
-                            </div>
-                            <div class="funfacts-items">
-                                <div>
-                                    <span id="number4" class="funfact-number">21</span>
-                                    <span class="plus-icon">+</span>
-                                </div>
-                                <p class="name">خبراء الفريق</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Funfacts Area End -->
-        <!-- Start Faq's Area -->
-        <section class="section">
-            <div class="container">
-                <div class="text-center section-title">
-                    <span>FAQ's</span>
-                    <h2>Frequently Ask Questions</h2>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-md-6">
-                        <div id="accordion" class="accordion accordion-faq wow fadeInUp" data-wow-duration="1s">
-                            <div class="card bg-white">
-                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse" href="#collapseOne">
-                                    <span class="card-title">
-                                        <strong> How do I get access to a theme?</strong>
-                                    </span>
-                                </a>
-                                <div id="collapseOne" class="card-body collapse" data-parent="#accordion">
-                                    <p class="m-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card bg-white">
-                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                    <span class="card-title">
-                                        <strong> How do I get access to a theme?</strong>
-                                    </span>
-                                </a>
-                                <div id="collapseTwo" class="card-body collapse" data-parent="#accordion">
-                                    <p class="m-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card bg-white">
-                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                    <span class="card-title">
-                                        <strong> How do I get access to a theme?</strong>
-                                    </span>
-                                </a>
-                                <div id="collapseThree" class="card-body collapse pt-0" data-parent="#accordion">
-                                    <p class="m-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div id="accordion1" class="accordion accordion-faq wow fadeInUp" data-wow-duration="1s">
-                            <div class="card bg-white">
-                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour">
-                                    <span class="card-title">
-                                        <strong> How do I get access to a theme?</strong>
-                                    </span>
-                                </a>
-                                <div id="collapseFour" class="card-body collapse" data-parent="#accordion1">
-                                    <p class="m-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card bg-white">
-                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive">
-                                    <span class="card-title">
-                                        <strong> How do I get access to a theme?</strong>
-                                    </span>
-                                </a>
-                                <div id="collapseFive" class="card-body collapse" data-parent="#accordion1">
-                                    <p class="m-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card bg-white">
-                                <a class="card-header text-dark bg-white py-4 collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapseSix">
-                                    <span class="card-title">
-                                        <strong> How do I get access to a theme?</strong>
-                                    </span>
-                                </a>
-                                <div id="collapseSix" class="card-body collapse" data-parent="#accordion1">
-                                    <p class="m-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Faq's Area -->
+
     </div>
 </template>
 <script>

@@ -10,15 +10,15 @@
                             <div class="col-md-12 justify-content-center align-self-center pb-2">
                                 <div class="breadcrumb-content">
                                     <div class="title-section">
-                                        <h1 class="title text-center text-white">Services</h1>
+                                        <h1 class="title text-center text-white">خدماتنا</h1>
                                     </div>
                                     <div class="breadcrumb-nav">
                                         <ul class="breadcrumb-link text-center list-unstyled mb-0">
                                             <li class="text-white">
                                                 <i class="mdi mdi-home theme-light-color pr-2"></i>
-                                                <a href="index.html">Home</a>
+                                                <a href="index.html">الرئيسية</a>
                                             </li>
-                                            <li class="theme-light-color active">Services</li>
+                                            <li class="theme-light-color active">خدماتنا</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -30,127 +30,68 @@
             </div>
         </section>
         <!-- BradCrumb header End -->
-        <!-- Start Services Top Area -->
-        <section class="section services-inner">
+        <!-- Funfacts Area Start -->
+        <section class="section fun-facts bg-light">
             <div class="container">
+                <div style="text-align: center">
+                    <div class="section-title">
+                        <span>خبرة أكثر من ١٠ سنوات</span>
+                        <h2>خبراتنا و خدماتنا</h2>
+                    </div>
+                </div>
+                <br>
                 <div class="row">
-                    <div class="col-lg-7">
-                        <div class="section-title">
-                            <span>40 + YEAR OF EXPERIENCE</span>
-                            <h2>Our Services & Skills</h2>
-                        </div>
-                        <div id="progress-bar" class="progress-bar-block">
-
-                            <div id="bar-1" class="bar-main-container azure">
-                                <div class="wrap">
-                                    <div class="bar-container">
-                                        <div class="bar"></div>
-                                    </div>
-                                    <label class="bar-label mb-0">Development</label>
-                                    <div class="bar-percentage" data-percentage="46"></div>
-                                </div>
+                    <div class="col-md-4 col-8">
+                        <div class="d-flex align-items-center facts-item">
+                            <div class="icon border-right">
+                                <span class="theme-light-color mdi mdi-cube-outline"></span>
                             </div>
-
-                            <div id="bar-2" class="bar-main-container emerald">
-                                <div class="wrap">
-                                    <div class="bar-container">
-                                        <div class="bar"></div>
-                                    </div>
-                                    <label class="bar-label mb-0">Customer</label>
-                                    <div class="bar-percentage" data-percentage="94"></div>
+                            <div class="funfacts-items">
+                                <div>
+                                    <span id="number1" class="funfact-number">69</span>
+                                    <span class="plus-icon">+</span>
                                 </div>
+                                <p class="name">مشروع</p>
                             </div>
-
-                            <div id="bar-3" class="bar-main-container violet">
-                                <div class="wrap">
-                                    <div class="bar-container">
-                                        <div class="bar"></div>
-                                    </div>
-                                    <label class="bar-label mb-0">Projects</label>
-                                    <div class="bar-percentage" data-percentage="47"></div>
-                                </div>
-                            </div>
-
-                            <div id="bar-4" class="bar-main-container yellow">
-                                <div class="wrap">
-                                    <div class="bar-container">
-                                        <div class="bar"></div>
-                                    </div>
-                                    <label class="bar-label mb-0">Users Worldwide</label>
-                                    <div class="bar-percentage" data-percentage="85"></div>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="mt-lg-0 mt-5">
-                            <img src="assets/images/services/services-02.jpg" alt="" class="img-fluid w-100 ">
+                    <div class="col-md-4 col-8">
+                        <div class="d-flex align-items-center facts-item">
+                            <div class="icon border-right">
+                                <span class="theme-light-color mdi mdi-account-group-outline"></span>
+                            </div>
+                            <div class="funfacts-items">
+                                <div>
+                                    <span id="number3" class="funfact-number">212</span>
+                                    <span class="plus-icon">+</span>
+                                </div>
+                                <p class="name">عميل</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-8">
+                        <div class="d-flex align-items-center facts-item">
+                            <div class="icon border-right">
+                                <span class="theme-light-color mdi mdi-trending-up"></span>
+                            </div>
+                            <div class="funfacts-items">
+                                <div>
+                                    <span id="number4" class="funfact-number">21</span>
+                                    <span class="plus-icon">+</span>
+                                </div>
+                                <p class="name">خبراء الفريق</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End Services Top Area -->
+        <!-- Funfacts Area End -->
+
         <!-- Start Services Area -->
         <OurServices/>
         <!-- End Services Area -->
-        <!-- Start Services Bottom Area -->
-        <section class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div>
-                            <img src="assets/images/services/services-03.jpg" alt="" class="img-fluid w-100">
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="services-info-box">
-                            <div class="section-title">
-                                <h2 class="title position-relative pb-2 mb-3">Other Services</h2>
-                            </div>
-                            <ul class="list-unstyled mb-0">
-                                <li>
-                                    <a href="#" class="text-dark">
-                                        App Design
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-dark">
-                                        UI / UX Design
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-dark">
-                                        Development
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-dark">
-                                        Web Design
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="text-dark">
-                                        Analysis
-                                    </a>
-                                </li>
 
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="mt-4 text-lg-left text-center">
-                            <h2>Creative Business Solutions</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. simplify sustainable applications whereas adaptive schemas. Competently brand performance based content and.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Services Bottom Area -->
     </div>
 </template>
 <script>

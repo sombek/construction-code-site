@@ -7,9 +7,9 @@
                     <div class="swiper-slide">
                         <div class="slide-inner site-bg-image-1">
                             <div class="slide-content text-white">
-                                <h2 class="mb-0 text-center">كود التشييد</h2>
+                                <h2 class="mb-0 text-center">مؤسسة كود التشييد للمقاولات العامة</h2>
                                 <p class="text-white text-center">
-                                    العمل على التقنيات الأساسية لتطوير البناء
+                                    نعمل على التقنيات الأساسية لتطوير البناء
                                 </p>
                             </div>
                         </div>
@@ -17,9 +17,9 @@
                     <div class="swiper-slide">
                         <div class="slide-inner site-bg-image-2">
                             <div class="slide-content text-white">
-                                <h2 class="mb-0 text-center">حلول مبتكره في البناء</h2>
+                                <h2 class="mb-0 text-center">حلول مبتكرة وإبداعية</h2>
                                 <p class="text-white text-center">
-                                    تصميم و تنفيذ جميع المشاريع الهندسية
+                                    نصمم وننفذ باحترافية عالية جميع المشاريع الهندسية
                                 </p>
                             </div>
                         </div>
@@ -36,15 +36,15 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="about-title section-title">
-                            <span>من نحن</span>
-                            <h2>هذا نص المفروض انه كشخه</h2>
+                            <span>ماهي</span>
+                            <h2>مؤسسة كود التشييد</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="about-text pl-4">
                             <p>
-                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
-                                رهيب
+                                مؤسسة كود التشييد ليست مجرد شركة مقاولات عامّة بل ركن وحجر زاوية في قطاع التشييد
+                                والعمران: أحد أكبر القطاعات الاقتصادية في المملكة.
                             </p>
                         </div>
                     </div>
@@ -56,30 +56,22 @@
                              style="text-align: right"
                              data-wow-duration="1s">
 
-                            <h1 class="font-18">
-                                حلول إبداعية
-                                <br>
-                                <span>لتصميم و تنفيذ المشاريع</span>
-                            </h1>
+                            <!--                            <h1 class="font-18">-->
+                            <!--                                حلول إبداعية-->
+                            <!--                                <br>-->
+                            <!--                                <span>لتصميم و تنفيذ المشاريع</span>-->
+                            <!--                            </h1>-->
+
                             <p>
-                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
-                                رهيب
-                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
-                                رهيب
+                                عبر سنين طويلة من الخبرة في مجال الإعمار والتشطيب والبناء كتبت قصصها المميزة في المملكة
+                                العربية السعودية. لكل قصّة كان هنالك أبطال، وآثار هي الأعمال التي تفردت وأصبحت شواهد
+                                حيّة، تثير الدهشة في كل لحظة.
                             </p>
                             <p>
-                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
-                                رهيب
-                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
-                                رهيب
-                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
-                                رهيب
-                            </p>
-                            <p>
-                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
-                                رهيب
-                                هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و رهيب هذا نص مره كشخة و
-                                رهيب
+                                في قطاع لا يتميز فيه إلا كل مجتهد فنان، وخبير، ثلاثية الإبداع كانت ولازالت هي مصدر
+                                الإلهام الذي لا ينضب، ولازالت كود التشييد إلى اليوم تسخر قدراتها وإمكانياتها وخبراتها
+                                المتراكمة عبر السنين، من خلال فريق يضمّ مجموعة مهندسيين وفنيين مدربين ومؤهلين لخوض كل
+                                تجربة جديدة بروح التحدي والثقة والإبداع.
                             </p>
                         </div>
                     </div>
@@ -259,24 +251,30 @@
                                     </li>
                                     <li class="mb-3">
                                         <i class="mdi-cellphone mdi mr-2"></i>
-                                        <span>+xx x xxxx xxxx</span>
+                                        <span >
+
+                                            <a href="tel:+966500473701">966500473701</a>
+                                            +
+                                        </span>
                                     </li>
                                     <li class="mb-3">
                                         <i class="mdi-email mdi mr-2"></i>
                                         <span>
-                                            <a href="mailto:hello@yourdomain.com"
-                                               class="text-dark">hello@yourdomain.com</a>
+                                            <a href="mailto:Constructioncode2016@gmail.com"
+                                               class="text-dark">Constructioncode2016@gmail.com </a>
                                         </span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="download-img scale-image wow fadeInUp" data-wow-duration="1s">
-                            <img src="assets/images/aboutus/about.jpg" alt="download" class="w-100">
-                        </div>
-                    </div>
+                    <iframe
+                            width="450"
+                            height="400"
+                            frameborder="0" style="border:0"
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBH90KAxoz2xCoJnwrdvNAKf_d8AH9EknU&q=مؤسسة+كود+التشييد+للمقاولات+العامة"
+                            allowfullscreen>
+                    </iframe>
                 </div>
             </div>
         </section>
@@ -306,8 +304,8 @@
         components: {Portfolio, Partners, OurServices},
         mounted() {
             if (window.innerWidth < 600) {
-                this.slider1 = 'assets/images/slider-img/slider1-mobile.jpg';
-                this.slider2 = 'assets/images/slider-img/slider2-mobile.jpg';
+                this.slider1 = 'assets/images/slider-img/slider2-mobile.jpg';
+                this.slider2 = 'assets/images/slider-img/slider1-mobile.jpg';
             } else {
                 this.slider1 = 'assets/images/slider-img/slider2.jpg';
                 this.slider2 = 'assets/images/slider-img/slider1.jpg';
@@ -316,8 +314,8 @@
 
             window.onresize = () => {
                 if (window.innerWidth < 600) {
-                    this.slider1 = 'assets/images/slider-img/slider1-mobile.jpg';
-                    this.slider2 = 'assets/images/slider-img/slider2-mobile.jpg';
+                    this.slider1 = 'assets/images/slider-img/slider2-mobile.jpg';
+                    this.slider2 = 'assets/images/slider-img/slider1-mobile.jpg';
                 } else {
                     this.slider1 = 'assets/images/slider-img/slider2.jpg';
                     this.slider2 = 'assets/images/slider-img/slider1.jpg';
