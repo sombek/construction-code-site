@@ -260,19 +260,19 @@
                     {
                         title: 'تنفيذ مكاتب | 1',
                         category: 'offices',
-                        imageLink: 'assets/images/portfolio/office/1.jpg'
+                        imageLink: 'assets/images/portfolio/office/1.JPG'
                     }, {
                         title: 'تنفيذ مكاتب | 2',
                         category: 'offices',
-                        imageLink: 'assets/images/portfolio/office/2.jpg'
+                        imageLink: 'assets/images/portfolio/office/2.JPG'
                     }, {
                         title: 'تنفيذ مكاتب | 3',
                         category: 'offices',
-                        imageLink: 'assets/images/portfolio/office/3.jpg'
+                        imageLink: 'assets/images/portfolio/office/3.JPG'
                     }, {
                         title: 'تنفيذ مكاتب | 4',
                         category: 'offices',
-                        imageLink: 'assets/images/portfolio/office/4.jpg'
+                        imageLink: 'assets/images/portfolio/office/4.JPG'
                     },
 
                     {
