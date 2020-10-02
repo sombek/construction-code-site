@@ -304,21 +304,21 @@
         components: {Portfolio, Partners, OurServices},
         mounted() {
             if (window.innerWidth < 600) {
-                this.slider1 = 'assets/images/slider-img/slider2-mobile.jpg';
-                this.slider2 = 'assets/images/slider-img/slider1-mobile.jpg';
+                this.slider1 = 'https://my-storage.ams3.digitaloceanspaces.com/slider2-mobile.jpg';
+                this.slider2 = 'https://my-storage.ams3.digitaloceanspaces.com/slider1-mobile.jpg';
             } else {
-                this.slider1 = 'assets/images/slider-img/slider2.jpg';
-                this.slider2 = 'assets/images/slider-img/slider1.jpg';
+                this.slider1 = 'https://my-storage.ams3.digitaloceanspaces.com/slider2.jpg';
+                this.slider2 = 'https://my-storage.ams3.digitaloceanspaces.com/slider1.jpg';
             }
             this.init();
 
             window.onresize = () => {
                 if (window.innerWidth < 600) {
-                    this.slider1 = 'assets/images/slider-img/slider2-mobile.jpg';
-                    this.slider2 = 'assets/images/slider-img/slider1-mobile.jpg';
+                    this.slider1 = 'https://my-storage.ams3.digitaloceanspaces.com/slider2-mobile.jpg';
+                    this.slider2 = 'https://my-storage.ams3.digitaloceanspaces.com/slider1-mobile.jpg';
                 } else {
-                    this.slider1 = 'assets/images/slider-img/slider2.jpg';
-                    this.slider2 = 'assets/images/slider-img/slider1.jpg';
+                    this.slider1 = 'https://my-storage.ams3.digitaloceanspaces.com/slider2.jpg';
+                    this.slider2 = 'https://my-storage.ams3.digitaloceanspaces.com/slider1.jpg';
                 }
                 this.initSiteBackgroundImage();
             }
