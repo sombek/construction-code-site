@@ -18,7 +18,7 @@
                                         <ul class="breadcrumb-link text-center list-unstyled mb-0">
                                             <li class="text-white">
                                                 <i class="mdi mdi-home theme-light-color pr-2"></i>
-                                                <a href="index.html">الرئيسية</a>
+                                                <a href="#" @click="$router.push('/')">الرئيسية</a>
                                             </li>
                                             <li class="theme-light-color active">اعمالنا</li>
                                         </ul>

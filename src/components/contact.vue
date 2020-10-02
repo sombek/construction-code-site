@@ -16,7 +16,7 @@
                                         <ul class="breadcrumb-link text-center list-unstyled mb-0">
                                             <li class="text-white">
                                                 <i class="mdi mdi-home theme-light-color pr-2"></i>
-                                                <a href="index.html">Home</a>
+                                                <a href="#" @click="$router.push('/')">Home</a>
                                             </li>
                                             <li class="theme-light-color active">Contact</li>
                                         </ul>
@@ -83,31 +83,36 @@
                             <div class="row">
                                 <div class="col-sm-6 col-12">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" name="name" placeholder="Enter name" required="required">
+                                        <input type="text" class="form-control" name="name" placeholder="Enter name"
+                                               required="required">
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-12">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" name="email" placeholder="Enter email" required="required">
+                                        <input type="email" class="form-control" name="email" placeholder="Enter email"
+                                               required="required">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6 col-12">
                                     <div class="form-group">
-                                        <input type="text" name="phone" value="" class="form-control" placeholder="Your Phone">
+                                        <input type="text" name="phone" value="" class="form-control"
+                                               placeholder="Your Phone">
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-12">
                                     <div class="form-group">
-                                        <input type="text" name="company" value="" size="40" class="form-control" placeholder="Your Company">
+                                        <input type="text" name="company" value="" size="40" class="form-control"
+                                               placeholder="Your Company">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <textarea name="message" class="form-control" rows="7" cols="25" placeholder="Message"></textarea>
+                                        <textarea name="message" class="form-control" rows="7" cols="25"
+                                                  placeholder="Message"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -127,7 +132,7 @@
     </div>
 </template>
 <script>
-        export default {
+    export default {
         name: 'contact',
         mounted() {
             this.init();

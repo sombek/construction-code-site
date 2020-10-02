@@ -18,7 +18,7 @@
                                         <ul class="breadcrumb-link text-center list-unstyled mb-0">
                                             <li class="text-white">
                                                 <i class="mdi mdi-home theme-light-color pr-2"></i>
-                                                <a href="index.html">الرئيسية</a>
+                                                <a href="#" @click="$router.push('/')">الرئيسية</a>
                                             </li>
                                             <li class="theme-light-color active">من نحن</li>
                                         </ul>
@@ -43,7 +43,8 @@
                             <h2>مؤسسة كود التشييد</h2>
                         </div>
                         <p class="about-text mt-4">
-                            كود التشييد ليست مجرد شركة مقاولات عامّة بل ركن وحجر زاوية في قطاع التشييد والعمران: أحد أكبر القطاعات الاقتصادية في المملكة.
+                            كود التشييد ليست مجرد شركة مقاولات عامّة بل ركن وحجر زاوية في قطاع التشييد والعمران: أحد
+                            أكبر القطاعات الاقتصادية في المملكة.
                         </p>
                         <div class="mt-4">
                             <div class="row">
@@ -55,7 +56,8 @@
                                         <div class="about_desc section-title">
                                             <h5 class="font-20">رسالتنا</h5>
                                             <p>
-                                                أن نكوّن خبراتنا ونسخر القدرات لبناء مجتمعات تقوم على عمران حديث بمواصفات هندسية عالمية في وقت قياسي وبأسعار منافسة.
+                                                أن نكوّن خبراتنا ونسخر القدرات لبناء مجتمعات تقوم على عمران حديث
+                                                بمواصفات هندسية عالمية في وقت قياسي وبأسعار منافسة.
                                             </p>
                                         </div>
                                     </div>
@@ -68,7 +70,8 @@
                                         <div class="about_desc section-title">
                                             <h5 class="font-20">رؤيتنا</h5>
                                             <p>
-                                                أن نساهم في خلق بيئات آمنة وملائمة وحديثة قائمة على الإبداع والتطوير  في جميع أنحاء المملكة.
+                                                أن نساهم في خلق بيئات آمنة وملائمة وحديثة قائمة على الإبداع والتطوير في
+                                                جميع أنحاء المملكة.
                                             </p>
                                         </div>
                                     </div>
@@ -87,19 +90,26 @@
         <!-- About-bottom section End-->
 
 
+        <!-- Start partners Area -->
+        <Partners/>
+        <!-- End partners Area -->
+
     </div>
 </template>
 <script>
     //WOW JS
-    import { WOW } from 'wowjs';
+    import {WOW} from 'wowjs';
     // import Swiper styles
     import '../assets/css/swiper.min.css';
     // core version + navigation, pagination modules:
-    import Swiper, { Navigation, Pagination } from 'swiper';
+    import Swiper, {Navigation, Pagination} from 'swiper';
     // configure Swiper to use modules
     Swiper.use([Navigation, Pagination]);
+    import Partners from "../components/Partners";
+
     export default {
         name: 'about',
+        components: {Partners},
         mounted() {
             this.init();
         },
@@ -125,7 +135,7 @@
             },
             /*----BACKGROUND IMAGE-----*/
             initBackgroundImage() {
-                $(".bg-image").css('background', function () {
+                $(".bg-image").css('background', function() {
                     var bg = ('url(' + $(this).data("image-src") + ') no-repeat center center');
                     return bg;
                 });
@@ -165,7 +175,7 @@
             },
             /*----COUNTER-----*/
             initCounter() {
-                $.fn.jQuerySimpleCounter = function (options) {
+                $.fn.jQuerySimpleCounter = function(options) {
                     var settings = $.extend({
                         start: 0,
                         end: 100,
@@ -176,10 +186,10 @@
 
                     var thisElement = $(this);
 
-                    $({ count: settings.start }).animate({ count: settings.end }, {
+                    $({count: settings.start}).animate({count: settings.end}, {
                         duration: settings.duration,
                         easing: settings.easing,
-                        step: function () {
+                        step: function() {
                             var mathCount = Math.ceil(this.count);
                             thisElement.text(mathCount);
                         },
@@ -188,10 +198,10 @@
                 };
 
 
-                $('#number1').jQuerySimpleCounter({ end: 69, duration: 3000 });
-                $('#number2').jQuerySimpleCounter({ end: 45, duration: 3000 });
-                $('#number3').jQuerySimpleCounter({ end: 212, duration: 2000 });
-                $('#number4').jQuerySimpleCounter({ end: 64, duration: 3000 });
+                $('#number1').jQuerySimpleCounter({end: 69, duration: 3000});
+                $('#number2').jQuerySimpleCounter({end: 45, duration: 3000});
+                $('#number3').jQuerySimpleCounter({end: 212, duration: 2000});
+                $('#number4').jQuerySimpleCounter({end: 64, duration: 3000});
             }
         }
     }

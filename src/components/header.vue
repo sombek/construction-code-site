@@ -21,9 +21,6 @@
                     <li class="nav-item">
                         <router-link class="nav-link" to="/ourWorks">معرض الأعمال</router-link>
                     </li>
-                    <li class="nav-item">
-                        <router-link class="nav-link" to="/contact">تواصل معنا</router-link>
-                    </li>
                 </ul>
                 <div class="menu-close-btn"><i class="mdi mdi-close-circle-outline"></i></div>
             </div>

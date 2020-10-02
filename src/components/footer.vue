@@ -27,17 +27,17 @@
                     <div class="menu-footer-menu-container mt-4">
                         <ul class="menu list-unstyled">
                             <li class="menu-item">
-                                <a href="">
+                                <a href="#" @click="$router.push('/')">
                                     <span class="line">تواصل</span>
                                 </a>
                             </li>
                             <li class="menu-item ">
-                                <a href="">
+                                <a href="#" @click="$router.push('/')">
                                     <span class="line">الأسئلة الشائعة</span>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="">
+                                <a href="#" @click="$router.push('/')">
                                     <span class="line">خريطة الموقع</span>
                                 </a>
                             </li>
@@ -45,13 +45,15 @@
                     </div>
                 </nav>
 
-                <div class="copyright mt-4">
-                    <a href="https://raqam.io" target="_blank" style="text-decoration: none">
-                        <p>
+                <nav>
+                    <div class="menu-footer-menu-container mt-4">
+                        <a href="https://raqam.io"
+                           target="_blank"
+                           style="text-decoration: none;color: white">
                             &copy; 2020 <br>تنفيذ <span class="line">منصة رقم</span>
-                        </p>
-                    </a>
-                </div>
+                        </a>
+                    </div>
+                </nav>
 
             </div>
         </footer>

@@ -1331,7 +1331,7 @@ footer ul.social-links {
     }
 
     footer ul.social-links li:not(:last-of-type) a {
-        border-right: 0;
+        border-left: 0;
     }
 
 ul.social-links li:before {

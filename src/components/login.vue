@@ -16,7 +16,7 @@
                                         <ul class="breadcrumb-link text-center list-unstyled mb-0">
                                             <li class="text-white">
                                                 <i class="mdi mdi-home theme-light-color pr-2"></i>
-                                                <a href="index.html">Pages</a>
+                                                <a href="#" @click="$router.push('/')">Pages</a>
                                             </li>
                                             <li class="theme-light-color active">Login</li>
                                         </ul>
