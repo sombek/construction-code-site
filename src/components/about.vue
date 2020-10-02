@@ -78,7 +78,7 @@
                     </div>
                     <div class="col-md-5 col-sm-12">
                         <div class="about-inner-img mt-lg-0 mt-4">
-                            <img src="assets/images/aboutus/about-02.jpg" alt="" class="img-fluid w-100">
+                            <img src="assets/images/dark-logo.png" alt="" class="img-fluid w-100">
                         </div>
                     </div>
                 </div>

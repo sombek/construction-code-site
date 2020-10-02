@@ -12,7 +12,8 @@
                     </li>
 
                     <li class="button-border list-inline-item" v-for="filter of filters" :key="filter.filter">
-                        <a href="#" :data-filter="'.'+filter.filter" class="pill-button">
+                        <a href="#" :data-filter="'.'+filter.filter"
+                           :class="['pill-button',filter.isActive?'active':''].join(' ')">
                             {{filter.title}}
                         </a>
                     </li>
@@ -70,7 +71,7 @@
                 var $container = $('.portfolio-items');
                 $container.imagesLoaded(function() {
                     $container.isotope({
-                        filter: '*',
+                        filter: '.offices',
                         animationOptions: {
                             duration: 750,
                             easing: 'linear',
@@ -80,8 +81,8 @@
                 });
 
                 $('.portfolio-filter a').click(function() {
-                    $('.portfolio-filter .current').removeClass('current');
-                    $(this).addClass('current');
+                    $('.portfolio-filter .active').removeClass('active');
+                    $(this).addClass('active');
                     var selector = $(this).attr('data-filter');
                     $container.isotope({
                         filter: selector,
@@ -146,7 +147,8 @@
                     },
                     {
                         title: 'مشاريع المكاتب',
-                        filter: 'offices'
+                        filter: 'offices',
+                        isActive: true
                     },
                 ],
                 items: [

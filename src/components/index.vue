@@ -78,7 +78,7 @@
 
                     <div class="col-lg-5">
                         <div class="download-img scale-image wow fadeInUp" data-wow-duration="1s">
-                            <img src="assets/images/aboutus/about.jpg" alt="download" class="w-100">
+                            <img src="assets/images/people.jpg" alt="download" class="w-100">
                         </div>
                     </div>
                 </div>
@@ -304,7 +304,7 @@
         components: {Portfolio, Partners, OurServices},
         mounted() {
             if (window.innerWidth < 600) {
-                this.slider1 = 'assets/images/slider-img/slider2-mobile.jpg';
+                this.slider1 = 'https://static.wixstatic.com/media/c2485e_12f9bce4fa424aa29f0cbec593b2874f.jpg/v1/fill/w_979,h_1469,al_c,q_85,usm_0.66_1.00_0.01/c2485e_12f9bce4fa424aa29f0cbec593b2874f.jpg';
                 this.slider2 = 'assets/images/slider-img/slider1-mobile.jpg';
             } else {
                 this.slider1 = 'assets/images/slider-img/slider2.jpg';
