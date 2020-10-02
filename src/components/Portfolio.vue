@@ -30,7 +30,7 @@
                         <div class="portfolio-box scale-image">
                             <div :style="`height: 250px;background:url(${item.imageLink});  background-position: center; background-size: cover;`"/>
                             <div class="portfolio-icon d-flex align-items-center justify-content-center">
-                                <a :href="item.imageLink" class="js-zoom-gallery">
+                                <a :href="item.imageLink.replace('-l','-h')" class="js-zoom-gallery">
                                     <i class="mdi mdi-magnify-plus-outline"></i>
                                 </a>
                             </div>
@@ -155,142 +155,142 @@
                     {
                         title: 'مشروع كوفي شوب | 1',
                         category: 'cafe',
-                        imageLink: 'assets/images/portfolio/cafe/1.jpg'
+                        imageLink: 'assets/images/portfolio-l/cafe/1.jpg',
                     }, {
                         title: 'مشروع كوفي شوب | 2‎',
                         category: 'cafe',
-                        imageLink: 'assets/images/portfolio/cafe/2.jpg'
+                        imageLink: 'assets/images/portfolio-l/cafe/2.jpg'
                     }, {
                         title: 'مشروع كوفي شوب | 3‎',
                         category: 'cafe',
-                        imageLink: 'assets/images/portfolio/cafe/3.jpg'
+                        imageLink: 'assets/images/portfolio-l/cafe/3.jpg'
                     }, {
                         title: 'مشروع كوفي شوب | 4‎',
                         category: 'cafe',
-                        imageLink: 'assets/images/portfolio/cafe/4.jpg'
+                        imageLink: 'assets/images/portfolio-l/cafe/4.jpg'
                     }, {
                         title: 'مشروع كوفي شوب | 5',
                         category: 'cafe',
-                        imageLink: 'assets/images/portfolio/cafe/5.jpg'
+                        imageLink: 'assets/images/portfolio-l/cafe/5.jpg'
                     }, {
                         title: 'مشروع كوفي شوب | 6‎',
                         category: 'cafe',
-                        imageLink: 'assets/images/portfolio/cafe/6.jpg'
+                        imageLink: 'assets/images/portfolio-l/cafe/6.jpg'
                     }, {
                         title: 'مشروع كوفي شوب | 7',
                         category: 'cafe',
-                        imageLink: 'assets/images/portfolio/cafe/7.jpg'
+                        imageLink: 'assets/images/portfolio-l/cafe/7.jpg'
                     }, {
                         title: 'مشروع كوفي شوب | 8‎',
                         category: 'cafe',
-                        imageLink: 'assets/images/portfolio/cafe/8.jpg'
+                        imageLink: 'assets/images/portfolio-l/cafe/8.jpg'
                     }, {
                         title: 'تنفيذ مطاعم و اكشاك | 1',
                         category: 'cafe',
-                        imageLink: 'assets/images/portfolio/rest/1.jpg'
+                        imageLink: 'assets/images/portfolio-l/rest/1.jpg'
                     }, {
                         title: 'تنفيذ مطاعم و اكشاك | 2',
                         category: 'cafe',
-                        imageLink: 'assets/images/portfolio/rest/2.jpg'
+                        imageLink: 'assets/images/portfolio-l/rest/2.jpg'
                     },
 
 
                     {
                         title: 'مشروع صالون حلاقة | 1‎',
                         category: 'barber',
-                        imageLink: 'assets/images/portfolio/barber/1.jpg'
+                        imageLink: 'assets/images/portfolio-l/barber/1.jpg'
                     }, {
                         title: 'مشروع صالون حلاقة | 2‎',
                         category: 'barber',
-                        imageLink: 'assets/images/portfolio/barber/2.jpg'
+                        imageLink: 'assets/images/portfolio-l/barber/2.jpg'
                     }, {
                         title: 'مشروع صالون حلاقة | 3‎',
                         category: 'barber',
-                        imageLink: 'assets/images/portfolio/barber/3.jpg'
+                        imageLink: 'assets/images/portfolio-l/barber/3.jpg'
                     },
 
                     {
                         title: 'تصميم واجهة ڤيلا | 1‎',
                         category: 'villa',
-                        imageLink: 'assets/images/portfolio/villa/1.jpg'
+                        imageLink: 'assets/images/portfolio-l/villa/1.jpg'
                     }, {
                         title: 'تصميم واجهة ڤيلا | 2‎',
                         category: 'villa',
-                        imageLink: 'assets/images/portfolio/villa/2.jpg'
+                        imageLink: 'assets/images/portfolio-l/villa/2.jpg'
                     }, {
                         title: 'تصميم واجهة ڤيلا | 3‎',
                         category: 'villa',
-                        imageLink: 'assets/images/portfolio/villa/3.jpg'
+                        imageLink: 'assets/images/portfolio-l/villa/3.jpg'
                     }, {
                         title: 'تصميم واجهة ڤيلا | 4‎',
                         category: 'villa',
-                        imageLink: 'assets/images/portfolio/villa/4.jpg'
+                        imageLink: 'assets/images/portfolio-l/villa/4.jpg'
                     }, {
                         title: 'تصميم واجهة ڤيلا | 5',
                         category: 'villa',
-                        imageLink: 'assets/images/portfolio/villa/5.jpg'
+                        imageLink: 'assets/images/portfolio-l/villa/5.jpg'
                     }, {
                         title: 'تصميم واجهة ڤيلا | 6',
                         category: 'villa',
-                        imageLink: 'assets/images/portfolio/villa/6.jpg'
+                        imageLink: 'assets/images/portfolio-l/villa/6.jpg'
                     }, {
                         title: 'تصميم واجهة ڤيلا | 7',
                         category: 'villa',
-                        imageLink: 'assets/images/portfolio/villa/7.jpg'
+                        imageLink: 'assets/images/portfolio-l/villa/7.jpg'
                     },
 
                     {
                         title: 'مشروع مجلس اسلامي | 1',
                         category: 'rooms',
-                        imageLink: 'assets/images/portfolio/islamic/1.jpg'
+                        imageLink: 'assets/images/portfolio-l/islamic/1.jpg'
                     }, {
                         title: 'مشروع مجلس اسلامي | 2',
                         category: 'rooms',
-                        imageLink: 'assets/images/portfolio/islamic/2.jpg'
+                        imageLink: 'assets/images/portfolio-l/islamic/2.jpg'
                     }, {
                         title: 'مشروع مجلس اسلامي | 3',
                         category: 'rooms',
-                        imageLink: 'assets/images/portfolio/islamic/3.jpg'
+                        imageLink: 'assets/images/portfolio-l/islamic/3.jpg'
                     }, {
                         title: 'مشروع مجلس اسلامي | 4',
                         category: 'rooms',
-                        imageLink: 'assets/images/portfolio/islamic/4.jpg'
+                        imageLink: 'assets/images/portfolio-l/islamic/4.jpg'
                     },
 
                     {
                         title: 'تنفيذ مكاتب | 1',
                         category: 'offices',
-                        imageLink: 'assets/images/portfolio/office/1.JPG'
+                        imageLink: 'assets/images/portfolio-l/office/1.jpg'
                     }, {
                         title: 'تنفيذ مكاتب | 2',
                         category: 'offices',
-                        imageLink: 'assets/images/portfolio/office/2.JPG'
+                        imageLink: 'assets/images/portfolio-l/office/2.jpg'
                     }, {
                         title: 'تنفيذ مكاتب | 3',
                         category: 'offices',
-                        imageLink: 'assets/images/portfolio/office/3.JPG'
+                        imageLink: 'assets/images/portfolio-l/office/3.jpg'
                     }, {
                         title: 'تنفيذ مكاتب | 4',
                         category: 'offices',
-                        imageLink: 'assets/images/portfolio/office/4.JPG'
+                        imageLink: 'assets/images/portfolio-l/office/4.jpg'
                     },
 
                     {
                         title: 'مجالس عربية | 1',
                         category: 'rooms',
-                        imageLink: 'assets/images/portfolio/rooms/1.jpg'
+                        imageLink: 'assets/images/portfolio-l/rooms/1.jpg'
                     }, {
                         title: 'مجالس عربية | 2',
                         category: 'rooms',
-                        imageLink: 'assets/images/portfolio/rooms/2.jpg'
+                        imageLink: 'assets/images/portfolio-l/rooms/2.jpg'
                     }, {
                         title: 'مجالس عربية | 3',
                         category: 'rooms',
-                        imageLink: 'assets/images/portfolio/rooms/3.jpg'
+                        imageLink: 'assets/images/portfolio-l/rooms/3.jpg'
                     }, {
                         title: 'مجالس عربية | 4',
                         category: 'rooms',
-                        imageLink: 'assets/images/portfolio/rooms/4.jpg'
+                        imageLink: 'assets/images/portfolio-l/rooms/4.jpg'
                     },
 
                 ]
