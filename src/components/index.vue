@@ -258,6 +258,13 @@
                                         </span>
                                     </li>
                                     <li class="mb-3">
+                                        <i class="mdi-whatsapp mdi mr-2"></i>
+                                        <span >
+                                            <button onclick="window.open('https://wa.me/966500473701')"
+                                                    class="btn outline-theme-btn">تواصل معنا عبر واتس اب</button>
+                                        </span>
+                                    </li>
+                                    <li class="mb-3">
                                         <i class="mdi-email mdi mr-2"></i>
                                         <span>
                                             <a href="mailto:Constructioncode2016@gmail.com"
