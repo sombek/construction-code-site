@@ -85,6 +85,15 @@
     </section>
 </template>
 <style scoped>
+
+    @media (max-width: 576px) {
+        .row div.col-sm-6 {
+            padding-left: 40px ;
+            padding-right: 40px
+
+        }
+    }
+
     .parallax-bg {
         background: url(https://assets.dmagstatic.com/wp-content/uploads/2018/12/dallas-construction.jpg) no-repeat center fixed;
         background-size: cover;
@@ -102,7 +111,7 @@
             },
             /*----COUNTER-----*/
             initCounter() {
-                $.fn.jQuerySimpleCounter = function (options) {
+                $.fn.jQuerySimpleCounter = function(options) {
                     var settings = $.extend({
                         start: 0,
                         end: 100,
@@ -113,10 +122,10 @@
 
                     var thisElement = $(this);
 
-                    $({ count: settings.start }).animate({ count: settings.end }, {
+                    $({count: settings.start}).animate({count: settings.end}, {
                         duration: settings.duration,
                         easing: settings.easing,
-                        step: function () {
+                        step: function() {
                             var mathCount = Math.ceil(this.count);
                             thisElement.text(mathCount);
                         },
@@ -125,9 +134,9 @@
                 };
 
 
-                $('#number1').jQuerySimpleCounter({ end: 69, duration: 3000 });
-                $('#number3').jQuerySimpleCounter({ end: 212, duration: 2000 });
-                $('#number4').jQuerySimpleCounter({ end: 32, duration: 1500 });
+                $('#number1').jQuerySimpleCounter({end: 69, duration: 3000});
+                $('#number3').jQuerySimpleCounter({end: 212, duration: 2000});
+                $('#number4').jQuerySimpleCounter({end: 32, duration: 1500});
             }
         }
     }

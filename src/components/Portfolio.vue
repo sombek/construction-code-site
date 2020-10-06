@@ -30,7 +30,7 @@
                         <div class="portfolio-box scale-image">
                             <div :style="`height: 250px;background:url(${item.imageLink});  background-position: center; background-size: cover;`"/>
                             <div class="portfolio-icon d-flex align-items-center justify-content-center">
-                                <a :href="item.imageLink.replace('-l','-h')" class="js-zoom-gallery">
+                                <a :href="item.imageLink" class="js-zoom-gallery">
                                     <i class="mdi mdi-magnify-plus-outline"></i>
                                 </a>
                             </div>
@@ -49,15 +49,95 @@
     //ISOTOP JS
     import '../assets/js/jquery.isotope.min.js';
     import * as ScrollMagic from "scrollmagic";
-    import {TweenMax, TimelineMax} from "gsap";
+    import {TweenMax} from "gsap";
     //MAGNIFIC POPUP JS
     import 'magnific-popup/dist/jquery.magnific-popup.min.js';
     import 'magnific-popup/dist/magnific-popup.css';
+    import xmlToJSON from '../assets/xml2json'
+    import Axios from 'axios'
 
     export default {
         name: 'Portfolio',
         mounted() {
             this.init();
+            const baseUrl = 'https://my-storage.ams3.digitaloceanspaces.com/'
+
+            Axios.get('https://my-storage.ams3.digitaloceanspaces.com/').then(x => {
+                let images = xmlToJSON.parseString(x.data).ListBucketResult[0].Contents
+                images = images.map(c => c.Key[0]._text.includes('construction-code') ? baseUrl + c.Key[0]._text : false)
+                images = images.filter(c => c)
+
+                const commercialDesign = images.map(c => {
+                    if (c.includes('commercial-design'))
+                        return {
+                            title: 'مشاريع التصميم التجارية',
+                            category: 'commercialDesign',
+                            imageLink: c,
+                        }
+                }).filter(c => c)
+                commercialDesign.shift()
+
+                const commercialWork = images.map(c => {
+                    if (c.includes('commercial-work'))
+                        return {
+                            title: 'مشاريع التنفيذ التجارية',
+                            category: 'commercialWork',
+                            imageLink: c,
+                        }
+                }).filter(c => c)
+
+                const woodWork = images.map(c => {
+                    if (c.includes('wood-work'))
+                        return {
+                            title: 'الاعمال الخشبية',
+                            category: 'woodWork',
+                            imageLink: c,
+                        }
+                }).filter(c => c)
+                woodWork.shift()
+
+                const housingWork = images.map(c => {
+                    if (c.includes('housing-work'))
+                        return {
+                            title: 'مشاريع التنفيذ السكنية',
+                            category: 'housingWork',
+                            imageLink: c,
+                        }
+                }).filter(c => c)
+                housingWork.shift()
+
+                const housingDesign = images.map(c => {
+                    if (c.includes('housing-design'))
+                        return {
+                            title: 'مشاريع التصميم السكنية',
+                            category: 'housingDesign',
+                            imageLink: c,
+                        }
+                }).filter(c => c)
+                housingDesign.shift()
+
+                this.items = [
+                    ...commercialDesign,
+                    ...commercialWork,
+                    ...housingWork,
+                    ...housingDesign,
+                    ...woodWork
+                ]
+
+                this.images = images
+            }).then(()=>{
+                var $container = $('.portfolio-items');
+                $container.imagesLoaded(function() {
+                    $container.isotope({
+                        filter: '.housingDesign',
+                        animationOptions: {
+                            duration: 750,
+                            easing: 'linear',
+                            queue: false
+                        }
+                    });
+                });
+            })
         },
         methods: {
             init() {
@@ -68,22 +148,12 @@
 
             /*----ISOTOP JS-----*/
             initIsotop() {
-                var $container = $('.portfolio-items');
-                $container.imagesLoaded(function() {
-                    $container.isotope({
-                        filter: '.offices',
-                        animationOptions: {
-                            duration: 750,
-                            easing: 'linear',
-                            queue: false
-                        }
-                    });
-                });
-
                 $('.portfolio-filter a').click(function() {
+                    var $container = $('.portfolio-items');
                     $('.portfolio-filter .active').removeClass('active');
                     $(this).addClass('active');
                     var selector = $(this).attr('data-filter');
+                    console.log(selector)
                     $container.isotope({
                         filter: selector,
                         animationOptions: {
@@ -130,170 +200,28 @@
             return {
                 filters: [
                     {
-                        title: 'مشاريع مطاعم واكشاك',
-                        filter: 'cafe'
-                    },
-                    {
-                        title: 'مشاريع صوالين حلاقة',
-                        filter: 'barber'
-                    },
-                    {
-                        title: 'مشاريع فلل',
-                        filter: 'villa'
-                    },
-                    {
-                        title: 'مشاريع مجالس',
-                        filter: 'rooms'
-                    },
-                    {
-                        title: 'مشاريع المكاتب',
-                        filter: 'offices',
+                        title: 'تصميم سكني 🏠',
+                        filter: 'housingDesign',
                         isActive: true
                     },
+                    {
+                        title: 'تنفيذ سكني 🏠',
+                        filter: 'housingWork'
+                    },
+                    {
+                        title: 'تصميم تجاري 🏦',
+                        filter: 'commercialDesign',
+                    },
+                    {
+                        title: 'تنفيذ تجاري 🏦',
+                        filter: 'commercialWork'
+                    },
+                    {
+                        title: 'الاعمال الخشبية ',
+                        filter: 'woodWork'
+                    }
                 ],
-                items: [
-                    {
-                        title: 'مشروع كوفي شوب | 1',
-                        category: 'cafe',
-                        imageLink: 'assets/images/portfolio-l/cafe/1.jpg',
-                    }, {
-                        title: 'مشروع كوفي شوب | 2‎',
-                        category: 'cafe',
-                        imageLink: 'assets/images/portfolio-l/cafe/2.jpg'
-                    }, {
-                        title: 'مشروع كوفي شوب | 3‎',
-                        category: 'cafe',
-                        imageLink: 'assets/images/portfolio-l/cafe/3.jpg'
-                    }, {
-                        title: 'مشروع كوفي شوب | 4‎',
-                        category: 'cafe',
-                        imageLink: 'assets/images/portfolio-l/cafe/4.jpg'
-                    }, {
-                        title: 'مشروع كوفي شوب | 5',
-                        category: 'cafe',
-                        imageLink: 'assets/images/portfolio-l/cafe/5.jpg'
-                    }, {
-                        title: 'مشروع كوفي شوب | 6‎',
-                        category: 'cafe',
-                        imageLink: 'assets/images/portfolio-l/cafe/6.jpg'
-                    }, {
-                        title: 'مشروع كوفي شوب | 7',
-                        category: 'cafe',
-                        imageLink: 'assets/images/portfolio-l/cafe/7.jpg'
-                    }, {
-                        title: 'مشروع كوفي شوب | 8‎',
-                        category: 'cafe',
-                        imageLink: 'assets/images/portfolio-l/cafe/8.jpg'
-                    }, {
-                        title: 'تنفيذ مطاعم و اكشاك | 1',
-                        category: 'cafe',
-                        imageLink: 'assets/images/portfolio-l/rest/1.jpg'
-                    }, {
-                        title: 'تنفيذ مطاعم و اكشاك | 2',
-                        category: 'cafe',
-                        imageLink: 'assets/images/portfolio-l/rest/2.jpg'
-                    },
-
-
-                    {
-                        title: 'مشروع صالون حلاقة | 1‎',
-                        category: 'barber',
-                        imageLink: 'assets/images/portfolio-l/barber/1.jpg'
-                    }, {
-                        title: 'مشروع صالون حلاقة | 2‎',
-                        category: 'barber',
-                        imageLink: 'assets/images/portfolio-l/barber/2.jpg'
-                    }, {
-                        title: 'مشروع صالون حلاقة | 3‎',
-                        category: 'barber',
-                        imageLink: 'assets/images/portfolio-l/barber/3.jpg'
-                    },
-
-                    {
-                        title: 'تصميم واجهة ڤيلا | 1‎',
-                        category: 'villa',
-                        imageLink: 'assets/images/portfolio-l/villa/1.jpg'
-                    }, {
-                        title: 'تصميم واجهة ڤيلا | 2‎',
-                        category: 'villa',
-                        imageLink: 'assets/images/portfolio-l/villa/2.jpg'
-                    }, {
-                        title: 'تصميم واجهة ڤيلا | 3‎',
-                        category: 'villa',
-                        imageLink: 'assets/images/portfolio-l/villa/3.jpg'
-                    }, {
-                        title: 'تصميم واجهة ڤيلا | 4‎',
-                        category: 'villa',
-                        imageLink: 'assets/images/portfolio-l/villa/4.jpg'
-                    }, {
-                        title: 'تصميم واجهة ڤيلا | 5',
-                        category: 'villa',
-                        imageLink: 'assets/images/portfolio-l/villa/5.jpg'
-                    }, {
-                        title: 'تصميم واجهة ڤيلا | 6',
-                        category: 'villa',
-                        imageLink: 'assets/images/portfolio-l/villa/6.jpg'
-                    }, {
-                        title: 'تصميم واجهة ڤيلا | 7',
-                        category: 'villa',
-                        imageLink: 'assets/images/portfolio-l/villa/7.jpg'
-                    },
-
-                    {
-                        title: 'مشروع مجلس اسلامي | 1',
-                        category: 'rooms',
-                        imageLink: 'assets/images/portfolio-l/islamic/1.jpg'
-                    }, {
-                        title: 'مشروع مجلس اسلامي | 2',
-                        category: 'rooms',
-                        imageLink: 'assets/images/portfolio-l/islamic/2.jpg'
-                    }, {
-                        title: 'مشروع مجلس اسلامي | 3',
-                        category: 'rooms',
-                        imageLink: 'assets/images/portfolio-l/islamic/3.jpg'
-                    }, {
-                        title: 'مشروع مجلس اسلامي | 4',
-                        category: 'rooms',
-                        imageLink: 'assets/images/portfolio-l/islamic/4.jpg'
-                    },
-
-                    {
-                        title: 'تنفيذ مكاتب | 1',
-                        category: 'offices',
-                        imageLink: 'assets/images/portfolio-l/office/1.JPG'
-                    }, {
-                        title: 'تنفيذ مكاتب | 2',
-                        category: 'offices',
-                        imageLink: 'assets/images/portfolio-l/office/2.JPG'
-                    }, {
-                        title: 'تنفيذ مكاتب | 3',
-                        category: 'offices',
-                        imageLink: 'assets/images/portfolio-l/office/3.JPG'
-                    }, {
-                        title: 'تنفيذ مكاتب | 4',
-                        category: 'offices',
-                        imageLink: 'assets/images/portfolio-l/office/4.JPG'
-                    },
-
-                    {
-                        title: 'مجالس عربية | 1',
-                        category: 'rooms',
-                        imageLink: 'assets/images/portfolio-l/rooms/1.jpg'
-                    }, {
-                        title: 'مجالس عربية | 2',
-                        category: 'rooms',
-                        imageLink: 'assets/images/portfolio-l/rooms/2.jpg'
-                    }, {
-                        title: 'مجالس عربية | 3',
-                        category: 'rooms',
-                        imageLink: 'assets/images/portfolio-l/rooms/3.jpg'
-                    }, {
-                        title: 'مجالس عربية | 4',
-                        category: 'rooms',
-                        imageLink: 'assets/images/portfolio-l/rooms/4.jpg'
-                    },
-
-                ]
+                items: []
             }
         }
     }
