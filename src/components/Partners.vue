@@ -1,7 +1,8 @@
 <template>
     <div>
         <section class="section pt-0 testimonial-section">
-            <div class="testimonial-header-area bg-image" data-image-src="assets/images/partners-bg.jpg">
+            <div class="testimonial-header-area bg-image ssss"
+                 data-image-src="https://images.unsplash.com/photo-1466803000100-40016de08ade?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1419&q=80">
                 <div class="container">
                     <div class="text-center section-title">
                         <span>شركائنا</span>
@@ -36,6 +37,11 @@
         </section>
     </div>
 </template>
+<style>
+    .ssss {
+        background-size: cover !important;
+    }
+</style>
 <script>
     import Swiper from "swiper";
 

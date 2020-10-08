@@ -8,18 +8,17 @@
                 </a>
                 <ul class="social-links list-unstyled d-flex justify-content-center">
                     <li class="facebook">
-                        <a href="" title="Facebook" target="_blank">
-                            <i class="mdi mdi-facebook font-20 text-white"></i>
-                        </a>
-                    </li>
-                    <li class="twitter">
-                        <a href="" title="Twitter" target="_blank">
-                            <i class="mdi  mdi-twitter font-20 text-white"></i>
+                        <a href="" title="Facebook"
+                           onclick="window.open('http://www.snapchat.com/add/digitaltrends')">
+                           target="_blank">
+                            <i class="mdi mdi-snapchat font-20 text-white"></i>
                         </a>
                     </li>
                     <li class="instagram">
-                        <a href="" title="Instagram" target="_blank">
-                            <i class="mdi  mdi-google-plus font-20 text-white"></i>
+                        <a href="" title="Instagram"
+                           onclick="window.open('https://www.instagram.com/')">
+                           target="_blank">
+                            <i class="mdi  mdi-instagram font-20 text-white"></i>
                         </a>
                     </li>
                 </ul>
@@ -29,11 +28,6 @@
                             <li class="menu-item">
                                 <a href="#" @click="$router.push('/')">
                                     <span class="line">تواصل</span>
-                                </a>
-                            </li>
-                            <li class="menu-item ">
-                                <a href="#" @click="$router.push('/')">
-                                    <span class="line">الأسئلة الشائعة</span>
                                 </a>
                             </li>
                             <li class="menu-item">
@@ -59,6 +53,8 @@
         </footer>
         <!-- End Footer Area -->
         <!-- Back To Top -->
+        <a href="#" class="back_top" style="bottom:80px" onclick="window.open('https://wa.me/966500473701')"> <i
+                class="mdi mdi-whatsapp"></i></a>
         <a href="#" class="back_top"> <i class="mdi mdi-chevron-up"></i></a>
     </div>
 </template>
