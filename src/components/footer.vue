@@ -9,7 +9,7 @@
                 <ul class="social-links list-unstyled d-flex justify-content-center">
                     <li class="facebook">
                         <a href="" title="Facebook"
-                           onclick="window.open('http://www.snapchat.com/add/digitaltrends')"
+                           onclick="window.open('http://www.snapchat.com/add/code-2016')"
                            target="_blank">
                             <i class="mdi mdi-snapchat font-20 text-white"></i>
                         </a>
