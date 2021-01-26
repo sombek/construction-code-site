@@ -56,76 +56,64 @@
     import xmlToJSON from '../assets/xml2json'
     import Axios from 'axios'
 
+    String.prototype.camelize = function() {
+        return this.split('-').map(function(word,index){
+            if(index === 0)
+                return word.toLowerCase();
+            return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+        }).join('');
+    }
+
+    Array.prototype.unique =function(propertyName) {
+        return this.filter((e, i) => this.findIndex(a => a[propertyName] === e[propertyName]) === i);
+    }
+
     export default {
         name: 'Portfolio',
         mounted() {
             this.init();
             const baseUrl = 'https://my-storage.ams3.digitaloceanspaces.com/'
-
-            Axios.get('https://my-storage.ams3.digitaloceanspaces.com/').then(x => {
+            const fileName = 'construction-code/'
+            Axios.get('https://my-storage.ams3.digitaloceanspaces.com/').then(async x => {
                 let images = xmlToJSON.parseString(x.data).ListBucketResult[0].Contents
                 images = images.map(c => c.Key[0]._text.includes('construction-code') ? baseUrl + c.Key[0]._text : false)
                 images = images.filter(c => c)
 
-                const commercialDesign = images.map(c => {
-                    if (c.includes('commercial-design'))
-                        return {
-                            title: 'مشاريع التصميم التجارية',
-                            category: 'commercialDesign',
-                            imageLink: c,
-                        }
-                }).filter(c => c)
-                commercialDesign.shift()
+                const fullFolderName = baseUrl+fileName;
+                let imageFoldersNames = new Set();
+                images.forEach(image=>imageFoldersNames.add(image.split(fullFolderName)[1].split('/')[0]));
+                imageFoldersNames = Array.from(imageFoldersNames).filter(c=>c);
 
-                const commercialWork = images.map(c => {
-                    if (c.includes('commercial-work'))
-                        return {
-                            title: 'مشاريع التنفيذ التجارية',
-                            category: 'commercialWork',
-                            imageLink: c,
-                        }
-                }).filter(c => c)
+                const allItems = [];
+                for (const folder of imageFoldersNames) {
+                    let jsonFile;
 
-                const woodWork = images.map(c => {
-                    if (c.includes('wood-work'))
-                        return {
-                            title: 'الاعمال الخشبية',
-                            category: 'woodWork',
-                            imageLink: c,
-                        }
-                }).filter(c => c)
-                woodWork.shift()
+                    // find the title of the folder by finding the json file and use the title from it
+                    await new Promise((resolve) => {
+                        images.forEach(async c => {
+                            if (c.includes(folder+'/') && c.includes('.json')){
+                                jsonFile = (await Axios.get(c)).data;
+                                this.filters.push(jsonFile)
+                                resolve();
+                            }
+                        });
+                    });
 
-                const housingWork = images.map(c => {
-                    if (c.includes('housing-work'))
-                        return {
-                            title: 'مشاريع التنفيذ السكنية',
-                            category: 'housingWork',
-                            imageLink: c,
-                        }
-                }).filter(c => c)
-                housingWork.shift()
+                    // prepare the object for images
+                    images.forEach(c => {
+                        if (c.includes(folder+'/') && c.split(folder + '/')[1] && !c.includes('.json'))
+                            allItems.push({
+                                title: jsonFile.title,
+                                category: folder.camelize(),
+                                imageLink: c,
+                            })
+                    })
+                }
 
-                const housingDesign = images.map(c => {
-                    if (c.includes('housing-design'))
-                        return {
-                            title: 'مشاريع التصميم السكنية',
-                            category: 'housingDesign',
-                            imageLink: c,
-                        }
-                }).filter(c => c)
-                housingDesign.shift()
-
-                this.items = [
-                    ...commercialDesign,
-                    ...commercialWork,
-                    ...housingWork,
-                    ...housingDesign,
-                    ...woodWork
-                ]
-
+                this.items = allItems;
                 this.images = images
             }).then(()=>{
+                this.initIsotop();
                 var $container = $('.portfolio-items');
                 $container.imagesLoaded(function() {
                     $container.isotope({
@@ -141,7 +129,7 @@
         },
         methods: {
             init() {
-                this.initIsotop();
+
                 this.initMagnificPopup();
                 this.initScaleImage();
             },
@@ -198,29 +186,7 @@
         },
         data() {
             return {
-                filters: [
-                    {
-                        title: 'تصميم سكني 🏠',
-                        filter: 'housingDesign',
-                        isActive: true
-                    },
-                    {
-                        title: 'تنفيذ سكني 🏠',
-                        filter: 'housingWork'
-                    },
-                    {
-                        title: 'تصميم تجاري 🏦',
-                        filter: 'commercialDesign',
-                    },
-                    {
-                        title: 'تنفيذ تجاري 🏦',
-                        filter: 'commercialWork'
-                    },
-                    {
-                        title: 'الاعمال الخشبية ',
-                        filter: 'woodWork'
-                    }
-                ],
+                filters: [],
                 items: []
             }
         }
