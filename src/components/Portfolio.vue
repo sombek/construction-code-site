@@ -28,14 +28,11 @@
                      :class="['col-lg-4 col-sm-2 portfolio-item', item.category].join(' ')">
                     <div class="image-border">
                         <div class="portfolio-box scale-image">
-                            <div :style="`height: 250px;background:url(${item.imageLink});  background-position: center; background-size: cover;`"/>
+                            <div :style="`height: 250px;background:url(${item.imageLink}); background-position: center; background-size: cover;`"/>
                             <div class="portfolio-icon d-flex align-items-center justify-content-center">
                                 <a :href="item.imageLink" class="js-zoom-gallery">
                                     <i class="mdi mdi-magnify-plus-outline"></i>
                                 </a>
-                            </div>
-                            <div class="img-overlay text-white text-center">
-                                <h5 class="mb-0">{{item.title}}</h5>
                             </div>
                         </div>
                     </div>

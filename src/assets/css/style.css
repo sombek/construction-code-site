@@ -751,12 +751,12 @@ a, a:hover, a:focus, button, button:focus {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     border: 2px solid #fff;
     visibility: hidden;
     opacity: 0;
-    font-size: 24px;
+    font-size: 24pt;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     z-index: 2;
@@ -764,6 +764,14 @@ a, a:hover, a:focus, button, button:focus {
 
     .portfolio-icon a {
         color: #fff;
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio-icon a i {
+        position: absolute;
+        left: 20px;
+        top: 10px;
     }
 
         .portfolio-icon a:hover {
