@@ -11,6 +11,7 @@
     "animate.css": "^3.7.2",
     "axios": "^0.20.0",
     "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.4",
     "gsap": "^3.5.1",
     "isotope": "^1.0.0-alpha.3",
