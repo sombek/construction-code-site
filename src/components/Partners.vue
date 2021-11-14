@@ -6,7 +6,7 @@
                 <div class="container">
                     <div class="text-center section-title">
                         <span>شركائنا</span>
-                        <h2>شركاء النجاح في كود التشييد</h2>
+                        <h2>شركاء النجاح في النماذج الأولى للمقاولات</h2>
                     </div>
                 </div>
             </div>
